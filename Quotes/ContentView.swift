@@ -8,9 +8,21 @@
 import SwiftUI
 
 struct ContentView: View {
+
+    var depression: [Depression] = Quotes.depressionQuotes
+    
+    var gandhi: [Gandhi] = Quotes.gandhiQotes
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        VStack {
+            List {
+            ForEach(depression, id: \.id) { item in
+                Text(item.quote) + Text(item.author)
+                
+            }
+                
+                
+            }
+    }
     }
 }
 
