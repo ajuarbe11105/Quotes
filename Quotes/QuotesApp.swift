@@ -12,9 +12,9 @@ struct QuotesApp: App {
     var body: some Scene {
         
         WindowGroup {
-            NavigationView {
+           
             MainScrollView()
-            }
+            
         }
     }
 }

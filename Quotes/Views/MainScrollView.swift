@@ -12,8 +12,9 @@ struct MainScrollView: View {
 
     
     var body: some View {
-
+        NavigationView {
        
+            VStack {
                 ScrollView(.horizontal, showsIndicators: false) {
 
                     HStack {
@@ -50,7 +51,7 @@ struct MainScrollView: View {
             
                 }
             
-        Text("Quotes by people")
+        Text("Quotes by people").underline()
 
             ScrollView(.horizontal, showsIndicators: false) {
 
@@ -77,6 +78,8 @@ struct MainScrollView: View {
                 }
                 .padding()
             }
+            }
+        }
         }
     }
             
