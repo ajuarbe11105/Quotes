@@ -49,28 +49,28 @@ struct Quotes {
     Depression(quote: "I’ll never forget how the depression and loneliness felt good and bad at the same time. Still does.",
                author: "― Henry Rollins, The Portable Henry Rollins"),
 
-//
-//    Depression(quote: <#T##String#>,
-//               author: <#T##String#>),
-//
-//    Depression(quote: <#T##String#>,
-//               author: <#T##String#>),
-//
-//    Depression(quote: <#T##String#>,
-//               author: <#T##String#>),
-//
-//    Depression(quote: <#T##String#>,
-//               author: <#T##String#>),
-//
-//
-//    Depression(quote: <#T##String#>,
-//               author: <#T##String#>),
-//
-//    Depression(quote: <#T##String#>,
-//               author: <#T##String#>),
-//
-//    Depression(quote: <#T##String#>,
-//               author: <#T##String#>),
+
+    Depression(quote: "I have depression. But I prefer to say, ‘I battle’ depression instead of ‘I suffer’ with it. Because depression hits, but I hit back. Battle on",
+               author: "— Anonymous"),
+
+    Depression(quote: "Depression is being colorblind and constantly told how colorful the world is.",
+               author: "— Atticus, Love Her Wild"),
+
+    Depression(quote: "It is very hard to explain to people who have never known serious depression or anxiety the sheer continuous intensity of it. There is no off switch.",
+               author: "– Matt Haig"),
+
+    Depression(quote: "There is no point treating a depressed person as though she were just feeling sad, saying, ‘There now, hang on, you’ll get over it.’ Sadness is more or less like a head cold – with patience, it passes. Depression is like cancer.",
+               author: " ― Barbara Kingsolver, The Bean Trees"),
+
+
+    Depression(quote: "Mental illness is so much more complicated than any pill that any mortal could invent.",
+               author: "– Elizabeth Wintzel"),
+
+    Depression(quote: "Depression, suffering and anger are all part of being human.",
+               author: "– Janet Fitch"),
+
+    Depression(quote: "Every man has his secret sorrows which the world knows not; and often times we call a man cold when he is only sad.",
+               author: "― Henry Wadsworth Longfellow"),
 //
 //    Depression(quote: <#T##String#>,
 //               author: <#T##String#>),
@@ -482,35 +482,32 @@ struct Quotes {
         Gandhi(quote: "To believe in something, and not to live it, is dishonest.")
         
         
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
     ]
-//
-//
+    
+    static let abeQuotes = [
+    
+    Abe(quote: "That some achieve great success is proof to all that others can achieve it as well."),
+    Abe(quote: "Give me six hours to chop down a tree and I will spend the first four sharpening the axe."),
+    Abe(quote: "In the end, it's not the years in your life that count. It's the life in your years."),
+    Abe(quote: "The best way to predict your future is to create it."),
+    Abe(quote: "Whatever you are, be a good one."),
+    Abe(quote: "Things may come to those who wait, but only the things left by those who hustle."),
+    Abe(quote: "Those who look for the bad in people will surely find it."),
+    Abe(quote: "I would rather be a little nobody, then to be an evil somebody."),
+
+    ]
+    
+    static let jobsQuotes = [
+    Jobs(quote: "My favorite things in life don't cost any money. It's really clear that the most precious resource we all have is time."),
+    Jobs(quote: "Your time is limited, so don't waste it living someone elses. life. Don't be trapped by dogma - which is living with the results of other people's thinking."),
+    Jobs(quote: "Have the courage to follow your heart and intuition. They somehow know what you truly want to become."),
+    Jobs(quote: "Your time is limited, so don't waste it living someone elses life."),
+    Jobs(quote: "Quality is more important than quantity. One home run is much better than two doubles."),
+    Jobs(quote: "The people who are crazy enough to think they can change the world are the ones who do."),
+    Jobs(quote: "Don't let the noise of others opinions drown out your inner voice."),
+    Jobs(quote: "Your work is going to fill a large part of your life, and the only way to be truly satisfied is to do what you believe is great work."),
+    Jobs(quote: "Remembering that you are going to die is the best way I know to avoid the trap of thinking you have something to lose.")
+    ]
+    
+
 }

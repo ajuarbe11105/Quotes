@@ -10,12 +10,9 @@ import SwiftUI
 struct ContentView: View {
 
     var depression: [Depression] = Quotes.depressionQuotes
-    
     var gandhi: [Gandhi] = Quotes.gandhiQotes
     
-    
     var body: some View {
-        
         
         Form  {
             List {
