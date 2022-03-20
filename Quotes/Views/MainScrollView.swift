@@ -134,7 +134,26 @@ struct MainScrollView: View {
                         
                         
                                     })
-                        Text("Lincoln   ")
+                        Text("Lincoln")
+                            .padding()
+                }
+                    .padding()
+                    
+                    VStack {
+                                    NavigationLink(destination: {
+                                        GandhiDetail()
+                                    }, label: {
+                                        Image("jobs")
+                                            .resizable()
+                                            .scaledToFit()
+                                            .clipShape(Circle())
+                                            .frame(width: 90, height: 90)
+                                            .shadow(radius: 5)
+                                            .overlay(Circle().stroke(Color.red, lineWidth: 2))
+                        
+                        
+                                    })
+                        Text("Steve Jobs")
                             .padding()
                 }
             }

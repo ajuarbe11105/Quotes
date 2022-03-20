@@ -19,6 +19,7 @@
 		0B96A56B27E575F9004BBB46 /* GandhiDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B96A56A27E575F9004BBB46 /* GandhiDetail.swift */; };
 		0BEB390727E661180088A286 /* Abe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BEB390627E661180088A286 /* Abe.swift */; };
 		0BEB390927E6B3940088A286 /* Jobs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BEB390827E6B3940088A286 /* Jobs.swift */; };
+		0BEB390D27E7D9850088A286 /* JobsDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BEB390C27E7D9850088A286 /* JobsDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		0B96A56A27E575F9004BBB46 /* GandhiDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GandhiDetail.swift; sourceTree = "<group>"; };
 		0BEB390627E661180088A286 /* Abe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Abe.swift; sourceTree = "<group>"; };
 		0BEB390827E6B3940088A286 /* Jobs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jobs.swift; sourceTree = "<group>"; };
+		0BEB390C27E7D9850088A286 /* JobsDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobsDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +113,7 @@
 				0B96A56627E571C0004BBB46 /* MainView.swift */,
 				0B96A56827E57353004BBB46 /* MainScrollView.swift */,
 				0B96A56A27E575F9004BBB46 /* GandhiDetail.swift */,
+				0BEB390C27E7D9850088A286 /* JobsDetail.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -188,6 +191,7 @@
 				0B96A55227E42281004BBB46 /* ContentView.swift in Sources */,
 				0B96A56927E57353004BBB46 /* MainScrollView.swift in Sources */,
 				0BEB390727E661180088A286 /* Abe.swift in Sources */,
+				0BEB390D27E7D9850088A286 /* JobsDetail.swift in Sources */,
 				0B96A56727E571C0004BBB46 /* MainView.swift in Sources */,
 				0B96A56B27E575F9004BBB46 /* GandhiDetail.swift in Sources */,
 				0B96A56427E42AFA004BBB46 /* Gandhi.swift in Sources */,
