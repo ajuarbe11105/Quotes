@@ -19,14 +19,18 @@ struct NewScroll: View {
     var body: some View {
         NavigationView {
             
+            ScrollView {
+                
+           
          
-            ScrollView(.horizontal, showsIndicators: false) {
+          //  ScrollView(.horizontal, showsIndicators: false) {
                 
                 ZStack {
                     VStack {
                         Text("Texts by people")
                         
                         //   VStack {
+                        ScrollView(.horizontal, showsIndicators: false) {
                         HStack {
                             VStack {
                                 NavigationLink(destination: {
@@ -813,6 +817,7 @@ struct NewScroll: View {
                                 
                             }
                         }
+                        }
                     }
                     .padding()
                     
@@ -823,9 +828,13 @@ struct NewScroll: View {
                 Spacer()
                 
                 
+                Text("Quotes by Topic")
                 ZStack {
+                    ScrollView(.horizontal, showsIndicators: false) {
+
                     HStack {
                         VStack {
+                            
                             NavigationLink(destination: {
                                 //LincolnDetail
                             }, label: {
@@ -1000,12 +1009,278 @@ struct NewScroll: View {
                             })
                             
                         }
+                        VStack {
+                            NavigationLink(destination: {
+                                //LincolnDetail
+                            }, label: {
+                                Text("Depression")
+                                
+                                    .padding(.leading, 55)
+                                    .padding(.trailing, 10)
+                                    .padding(.vertical, 3)
+                                    .foregroundColor(.cyan)
+                                    .frame(width: 200, height: 30, alignment: .leading)
+                                    .background(LinearGradient(gradient: Gradient(colors: [.gray, .black]), startPoint: .leading, endPoint: .trailing))
+                                    .cornerRadius(15)
+                                    .lineLimit(6)
+                                    .multilineTextAlignment(.leading)
+                                    .font(.footnote)
+                            })
+                            NavigationLink(destination: {
+                                //LincolnDetail
+                            }, label: {
+                                Text("Depression")
+                                
+                                    .padding(.leading, 55)
+                                    .padding(.trailing, 10)
+                                    .padding(.vertical, 3)
+                                    .foregroundColor(.cyan)
+                                    .frame(width: 200, height: 30, alignment: .leading)
+                                    .background(LinearGradient(gradient: Gradient(colors: [.gray, .black]), startPoint: .leading, endPoint: .trailing))
+                                    .cornerRadius(15)
+                                    .lineLimit(6)
+                                    .multilineTextAlignment(.leading)
+                                    .font(.footnote)
+                            })
+                            
+                            NavigationLink(destination: {
+                                //LincolnDetail
+                            }, label: {
+                                Text("Depression")
+                                
+                                    .padding(.leading, 55)
+                                    .padding(.trailing, 10)
+                                    .padding(.vertical, 3)
+                                    .foregroundColor(.cyan)
+                                    .frame(width: 200, height: 30, alignment: .leading)
+                                    .background(LinearGradient(gradient: Gradient(colors: [.gray, .black]), startPoint: .leading, endPoint: .trailing))
+                                    .cornerRadius(15)
+                                    .lineLimit(6)
+                                    .multilineTextAlignment(.leading)
+                                    .font(.footnote)
+                            })
+                            
+                            NavigationLink(destination: {
+                                //LincolnDetail
+                            }, label: {
+                                Text("Depression")
+                                
+                                    .padding(.leading, 55)
+                                    .padding(.trailing, 10)
+                                    .padding(.vertical, 3)
+                                    .foregroundColor(.cyan)
+                                    .frame(width: 200, height: 30, alignment: .leading)
+                                    .background(LinearGradient(gradient: Gradient(colors: [.gray, .black]), startPoint: .leading, endPoint: .trailing))
+                                    .cornerRadius(15)
+                                    .lineLimit(6)
+                                    .multilineTextAlignment(.leading)
+                                    .font(.footnote)
+                            })
+                            
+                            NavigationLink(destination: {
+                                //LincolnDetail
+                            }, label: {
+                                Text("Depression")
+                                
+                                    .padding(.leading, 55)
+                                    .padding(.trailing, 10)
+                                    .padding(.vertical, 3)
+                                    .foregroundColor(.cyan)
+                                    .frame(width: 200, height: 30, alignment: .leading)
+                                    .background(LinearGradient(gradient: Gradient(colors: [.gray, .black]), startPoint: .leading, endPoint: .trailing))
+                                    .cornerRadius(15)
+                                    .lineLimit(6)
+                                    .multilineTextAlignment(.leading)
+                                    .font(.footnote)
+                            })
+                            
+                        }
+                        
+                        VStack {
+                            NavigationLink(destination: {
+                                //LincolnDetail
+                            }, label: {
+                                Text("Depression")
+                                
+                                    .padding(.leading, 55)
+                                    .padding(.trailing, 10)
+                                    .padding(.vertical, 3)
+                                    .foregroundColor(.cyan)
+                                    .frame(width: 200, height: 30, alignment: .leading)
+                                    .background(LinearGradient(gradient: Gradient(colors: [.gray, .black]), startPoint: .leading, endPoint: .trailing))
+                                    .cornerRadius(15)
+                                    .lineLimit(6)
+                                    .multilineTextAlignment(.leading)
+                                    .font(.footnote)
+                            })
+                            NavigationLink(destination: {
+                                //LincolnDetail
+                            }, label: {
+                                Text("Depression")
+                                
+                                    .padding(.leading, 55)
+                                    .padding(.trailing, 10)
+                                    .padding(.vertical, 3)
+                                    .foregroundColor(.cyan)
+                                    .frame(width: 200, height: 30, alignment: .leading)
+                                    .background(LinearGradient(gradient: Gradient(colors: [.gray, .black]), startPoint: .leading, endPoint: .trailing))
+                                    .cornerRadius(15)
+                                    .lineLimit(6)
+                                    .multilineTextAlignment(.leading)
+                                    .font(.footnote)
+                            })
+                            
+                            NavigationLink(destination: {
+                                //LincolnDetail
+                            }, label: {
+                                Text("Depression")
+                                
+                                    .padding(.leading, 55)
+                                    .padding(.trailing, 10)
+                                    .padding(.vertical, 3)
+                                    .foregroundColor(.cyan)
+                                    .frame(width: 200, height: 30, alignment: .leading)
+                                    .background(LinearGradient(gradient: Gradient(colors: [.gray, .black]), startPoint: .leading, endPoint: .trailing))
+                                    .cornerRadius(15)
+                                    .lineLimit(6)
+                                    .multilineTextAlignment(.leading)
+                                    .font(.footnote)
+                            })
+                            
+                            NavigationLink(destination: {
+                                //LincolnDetail
+                            }, label: {
+                                Text("Depression")
+                                
+                                    .padding(.leading, 55)
+                                    .padding(.trailing, 10)
+                                    .padding(.vertical, 3)
+                                    .foregroundColor(.cyan)
+                                    .frame(width: 200, height: 30, alignment: .leading)
+                                    .background(LinearGradient(gradient: Gradient(colors: [.gray, .black]), startPoint: .leading, endPoint: .trailing))
+                                    .cornerRadius(15)
+                                    .lineLimit(6)
+                                    .multilineTextAlignment(.leading)
+                                    .font(.footnote)
+                            })
+                            
+                            NavigationLink(destination: {
+                                //LincolnDetail
+                            }, label: {
+                                Text("Depression")
+                                
+                                    .padding(.leading, 55)
+                                    .padding(.trailing, 10)
+                                    .padding(.vertical, 3)
+                                    .foregroundColor(.cyan)
+                                    .frame(width: 200, height: 30, alignment: .leading)
+                                    .background(LinearGradient(gradient: Gradient(colors: [.gray, .black]), startPoint: .leading, endPoint: .trailing))
+                                    .cornerRadius(15)
+                                    .lineLimit(6)
+                                    .multilineTextAlignment(.leading)
+                                    .font(.footnote)
+                            })
+                            
+                        }
+                        .padding(20)
+                        
+                        
+                        VStack {
+                            NavigationLink(destination: {
+                                //LincolnDetail
+                            }, label: {
+                                Text("Depression")
+                                
+                                    .padding(.leading, 55)
+                                    .padding(.trailing, 10)
+                                    .padding(.vertical, 3)
+                                    .foregroundColor(.cyan)
+                                    .frame(width: 200, height: 30, alignment: .leading)
+                                    .background(LinearGradient(gradient: Gradient(colors: [.gray, .black]), startPoint: .leading, endPoint: .trailing))
+                                    .cornerRadius(15)
+                                    .lineLimit(6)
+                                    .multilineTextAlignment(.leading)
+                                    .font(.footnote)
+                            })
+                            NavigationLink(destination: {
+                                //LincolnDetail
+                            }, label: {
+                                Text("Depression")
+                                
+                                    .padding(.leading, 55)
+                                    .padding(.trailing, 10)
+                                    .padding(.vertical, 3)
+                                    .foregroundColor(.cyan)
+                                    .frame(width: 200, height: 30, alignment: .leading)
+                                    .background(LinearGradient(gradient: Gradient(colors: [.gray, .black]), startPoint: .leading, endPoint: .trailing))
+                                    .cornerRadius(15)
+                                    .lineLimit(6)
+                                    .multilineTextAlignment(.leading)
+                                    .font(.footnote)
+                            })
+                            
+                            NavigationLink(destination: {
+                                //LincolnDetail
+                            }, label: {
+                                Text("Depression")
+                                
+                                    .padding(.leading, 55)
+                                    .padding(.trailing, 10)
+                                    .padding(.vertical, 3)
+                                    .foregroundColor(.cyan)
+                                    .frame(width: 200, height: 30, alignment: .leading)
+                                    .background(LinearGradient(gradient: Gradient(colors: [.gray, .black]), startPoint: .leading, endPoint: .trailing))
+                                    .cornerRadius(15)
+                                    .lineLimit(6)
+                                    .multilineTextAlignment(.leading)
+                                    .font(.footnote)
+                            })
+                            
+                            NavigationLink(destination: {
+                                //LincolnDetail
+                            }, label: {
+                                Text("Depression")
+                                
+                                    .padding(.leading, 55)
+                                    .padding(.trailing, 10)
+                                    .padding(.vertical, 3)
+                                    .foregroundColor(.cyan)
+                                    .frame(width: 200, height: 30, alignment: .leading)
+                                    .background(LinearGradient(gradient: Gradient(colors: [.gray, .black]), startPoint: .leading, endPoint: .trailing))
+                                    .cornerRadius(15)
+                                    .lineLimit(6)
+                                    .multilineTextAlignment(.leading)
+                                    .font(.footnote)
+                            })
+                            
+                            NavigationLink(destination: {
+                                //LincolnDetail
+                            }, label: {
+                                Text("Depression")
+                                
+                                    .padding(.leading, 55)
+                                    .padding(.trailing, 10)
+                                    .padding(.vertical, 3)
+                                    .foregroundColor(.cyan)
+                                    .frame(width: 200, height: 30, alignment: .leading)
+                                    .background(LinearGradient(gradient: Gradient(colors: [.gray, .black]), startPoint: .leading, endPoint: .trailing))
+                                    .cornerRadius(15)
+                                    .lineLimit(6)
+                                    .multilineTextAlignment(.leading)
+                                    .font(.footnote)
+                            })
+                            
+                        }
+
                     }
+                        
+                    }
+                    Spacer()
                 }
                 
                 
-                
             }
+           // }
         }
         
         // .padding()
