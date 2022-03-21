@@ -9,7 +9,7 @@ import SwiftUI
 
 struct JobsDetail: View {
     
-    var jobs: [Jobs] = Quotes.jobsQuotes
+    var jobs: [AuthorModel] = Quotes.jobsQuotes
     
     var body: some View {
         ScrollView(showsIndicators: false) {
@@ -30,6 +30,9 @@ struct JobsDetail: View {
                 }
             }
         }
+        .navigationTitle("Steve Jobs Quotes")
+        .navigationBarTitleDisplayMode(.inline)
+
     }
 }
 

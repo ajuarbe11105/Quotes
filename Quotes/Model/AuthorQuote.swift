@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Gandhi: Identifiable {
+struct AuthorQuote: Identifiable {
     var id = UUID()
     var quote:String
 }

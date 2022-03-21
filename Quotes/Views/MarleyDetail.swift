@@ -1,22 +1,20 @@
 //
-//  GandhiDetail.swift
+//  MarleyDetail.swift
 //  Quotes
 //
-//  Created by Alberto Juarbe on 3/18/22.
+//  Created by Alberto Juarbe on 3/20/22.
 //
 
 import SwiftUI
 
-struct GandhiDetail: View {
+struct MarleyDetail: View {
     
-    var gandhi: [AuthorQuote] = Quotes.gandhiQotes
-    
-    
-    
+    var marley: [AuthorModel] = Quotes.marleyQuotes
     var body: some View {
+        
         ScrollView(showsIndicators: false) {
             VStack {
-                ForEach(gandhi, id: \.id) { item in
+                ForEach(marley, id: \.id) { item in
                     RoundedRectangle(cornerRadius: 20)
                         .fill(.gray)
                         .frame(width: 400, height: 150)
@@ -28,16 +26,14 @@ struct GandhiDetail: View {
                         )
                         .padding(10)
                     
-                    
                 }
             }
         }
-        .navigationTitle("Gandhi")
     }
 }
 
-struct GandhiDetail_Previews: PreviewProvider {
+struct MarleyDetail_Previews: PreviewProvider {
     static var previews: some View {
-        GandhiDetail()
+        MarleyDetail()
     }
 }

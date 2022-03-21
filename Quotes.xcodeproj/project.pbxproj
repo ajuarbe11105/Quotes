@@ -7,13 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B4DF8BF27E7FB0C00A90F7C /* AuthorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B4DF8BE27E7FB0C00A90F7C /* AuthorModel.swift */; };
+		0B4DF8C327E800C600A90F7C /* MarleyDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B4DF8C227E800C600A90F7C /* MarleyDetail.swift */; };
+		0B4DF8C727E8043800A90F7C /* NewScroll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B4DF8C627E8043800A90F7C /* NewScroll.swift */; };
 		0B96A55027E42281004BBB46 /* QuotesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B96A54F27E42281004BBB46 /* QuotesApp.swift */; };
 		0B96A55227E42281004BBB46 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B96A55127E42281004BBB46 /* ContentView.swift */; };
 		0B96A55427E42282004BBB46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B96A55327E42282004BBB46 /* Assets.xcassets */; };
 		0B96A55727E42282004BBB46 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B96A55627E42282004BBB46 /* Preview Assets.xcassets */; };
 		0B96A55E27E42312004BBB46 /* Depression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B96A55D27E42312004BBB46 /* Depression.swift */; };
 		0B96A56227E42368004BBB46 /* QuotesData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B96A56127E42368004BBB46 /* QuotesData.swift */; };
-		0B96A56427E42AFA004BBB46 /* Gandhi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B96A56327E42AFA004BBB46 /* Gandhi.swift */; };
+		0B96A56427E42AFA004BBB46 /* AuthorQuote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B96A56327E42AFA004BBB46 /* AuthorQuote.swift */; };
 		0B96A56727E571C0004BBB46 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B96A56627E571C0004BBB46 /* MainView.swift */; };
 		0B96A56927E57353004BBB46 /* MainScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B96A56827E57353004BBB46 /* MainScrollView.swift */; };
 		0B96A56B27E575F9004BBB46 /* GandhiDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B96A56A27E575F9004BBB46 /* GandhiDetail.swift */; };
@@ -23,6 +26,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0B4DF8BE27E7FB0C00A90F7C /* AuthorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorModel.swift; sourceTree = "<group>"; };
+		0B4DF8C227E800C600A90F7C /* MarleyDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarleyDetail.swift; sourceTree = "<group>"; };
+		0B4DF8C627E8043800A90F7C /* NewScroll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewScroll.swift; sourceTree = "<group>"; };
 		0B96A54C27E42281004BBB46 /* Quotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Quotes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B96A54F27E42281004BBB46 /* QuotesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesApp.swift; sourceTree = "<group>"; };
 		0B96A55127E42281004BBB46 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -30,7 +36,7 @@
 		0B96A55627E42282004BBB46 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0B96A55D27E42312004BBB46 /* Depression.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Depression.swift; sourceTree = "<group>"; };
 		0B96A56127E42368004BBB46 /* QuotesData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesData.swift; sourceTree = "<group>"; };
-		0B96A56327E42AFA004BBB46 /* Gandhi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gandhi.swift; sourceTree = "<group>"; };
+		0B96A56327E42AFA004BBB46 /* AuthorQuote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorQuote.swift; sourceTree = "<group>"; };
 		0B96A56627E571C0004BBB46 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		0B96A56827E57353004BBB46 /* MainScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScrollView.swift; sourceTree = "<group>"; };
 		0B96A56A27E575F9004BBB46 /* GandhiDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GandhiDetail.swift; sourceTree = "<group>"; };
@@ -91,9 +97,10 @@
 			isa = PBXGroup;
 			children = (
 				0B96A55D27E42312004BBB46 /* Depression.swift */,
-				0B96A56327E42AFA004BBB46 /* Gandhi.swift */,
+				0B96A56327E42AFA004BBB46 /* AuthorQuote.swift */,
 				0BEB390627E661180088A286 /* Abe.swift */,
 				0BEB390827E6B3940088A286 /* Jobs.swift */,
+				0B4DF8BE27E7FB0C00A90F7C /* AuthorModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -114,6 +121,8 @@
 				0B96A56827E57353004BBB46 /* MainScrollView.swift */,
 				0B96A56A27E575F9004BBB46 /* GandhiDetail.swift */,
 				0BEB390C27E7D9850088A286 /* JobsDetail.swift */,
+				0B4DF8C227E800C600A90F7C /* MarleyDetail.swift */,
+				0B4DF8C627E8043800A90F7C /* NewScroll.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -188,13 +197,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B4DF8C327E800C600A90F7C /* MarleyDetail.swift in Sources */,
 				0B96A55227E42281004BBB46 /* ContentView.swift in Sources */,
 				0B96A56927E57353004BBB46 /* MainScrollView.swift in Sources */,
 				0BEB390727E661180088A286 /* Abe.swift in Sources */,
 				0BEB390D27E7D9850088A286 /* JobsDetail.swift in Sources */,
+				0B4DF8BF27E7FB0C00A90F7C /* AuthorModel.swift in Sources */,
 				0B96A56727E571C0004BBB46 /* MainView.swift in Sources */,
 				0B96A56B27E575F9004BBB46 /* GandhiDetail.swift in Sources */,
-				0B96A56427E42AFA004BBB46 /* Gandhi.swift in Sources */,
+				0B96A56427E42AFA004BBB46 /* AuthorQuote.swift in Sources */,
+				0B4DF8C727E8043800A90F7C /* NewScroll.swift in Sources */,
 				0B96A55027E42281004BBB46 /* QuotesApp.swift in Sources */,
 				0BEB390927E6B3940088A286 /* Jobs.swift in Sources */,
 				0B96A56227E42368004BBB46 /* QuotesData.swift in Sources */,

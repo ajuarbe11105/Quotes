@@ -6,6 +6,7 @@
 //
 
 //Link https://allauthor.com/quotes/topic/
+//https://premium.zenquotes.io/on-this-day-api-documentation/
 
 import SwiftUI
 
@@ -141,7 +142,7 @@ struct MainScrollView: View {
                     
                     VStack {
                                     NavigationLink(destination: {
-                                        GandhiDetail()
+                                        JobsDetail()
                                     }, label: {
                                         Image("jobs")
                                             .resizable()
@@ -154,8 +155,28 @@ struct MainScrollView: View {
                         
                                     })
                         Text("Steve Jobs")
+                    }
                             .padding()
+                        
+                        VStack {
+                                        NavigationLink(destination: {
+                                            MarleyDetail()
+                                        }, label: {
+                                            Image("bobm")
+                                                .resizable()
+                                                .scaledToFit()
+                                                .clipShape(Circle())
+                                                .frame(width: 90, height: 90)
+                                                .shadow(radius: 5)
+                                                .overlay(Circle().stroke(Color.red, lineWidth: 2))
+                            
+                            
+                                        })
+                            Text("Bob Marley")
+                                .padding()
+
                 }
+                    }
             }
             
             
@@ -165,7 +186,7 @@ struct MainScrollView: View {
         
     }
     }
-}
+
             
         
 struct MainScrollView_Previews: PreviewProvider {

@@ -13,7 +13,7 @@ struct QuotesApp: App {
         
         WindowGroup {
            
-            MainScrollView()
+            NewScroll()
             
         }
     }
