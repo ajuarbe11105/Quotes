@@ -65,7 +65,7 @@ struct NewScroll: View {
                                 NavigationLink(destination: {
                                     GandhiDetail()
                                 }, label: {
-                                    Text("Mahatma Gandhi")
+                                    Text("Abraham Lincoln")
                                     
                                         .padding(.leading, 55)
                                         .padding(.trailing, 10)
@@ -79,7 +79,7 @@ struct NewScroll: View {
                                         .font(.footnote)
                                     
                                     
-                                    Image("gandhi")
+                                    Image("abe")
                                         .resizable()
                                         .frame(width: 40, height: 40, alignment: .center)
                                         .clipShape(Circle())
@@ -92,9 +92,9 @@ struct NewScroll: View {
                                     
                                 })
                                 NavigationLink(destination: {
-                                    GandhiDetail()
+                                    MarleyDetail()
                                 }, label: {
-                                    Text("Mahatma Gandhi")
+                                    Text("Bob Marley")
                                     
                                         .padding(.leading, 55)
                                         .padding(.trailing, 10)
@@ -108,37 +108,7 @@ struct NewScroll: View {
                                         .font(.footnote)
                                     
                                     
-                                    Image("gandhi")
-                                        .resizable()
-                                        .frame(width: 40, height: 40, alignment: .center)
-                                        .clipShape(Circle())
-                                        .background(
-                                            Circle()
-                                                .fill(.cyan)
-                                                .frame(width: 40, height: 40, alignment: .center)
-                                        )
-                                        .offset(x: -210)
-                                    
-                                })
-                                
-                                NavigationLink(destination: {
-                                    GandhiDetail()
-                                }, label: {
-                                    Text("Mahatma Gandhi")
-                                    
-                                        .padding(.leading, 55)
-                                        .padding(.trailing, 10)
-                                        .padding(.vertical, 3)
-                                        .foregroundColor(.cyan)
-                                        .frame(width: 200, height: 30, alignment: .leading)
-                                        .background(LinearGradient(gradient: Gradient(colors: [.gray, .black]), startPoint: .leading, endPoint: .trailing))
-                                        .cornerRadius(15)
-                                        .lineLimit(6)
-                                        .multilineTextAlignment(.leading)
-                                        .font(.footnote)
-                                    
-                                    
-                                    Image("gandhi")
+                                    Image("bobm")
                                         .resizable()
                                         .frame(width: 40, height: 40, alignment: .center)
                                         .clipShape(Circle())
@@ -152,9 +122,9 @@ struct NewScroll: View {
                                 })
                                 
                                 NavigationLink(destination: {
-                                    GandhiDetail()
+                                    JobsDetail()
                                 }, label: {
-                                    Text("Mahatma Gandhi")
+                                    Text("Steve Jobs")
                                     
                                         .padding(.leading, 55)
                                         .padding(.trailing, 10)
@@ -168,7 +138,37 @@ struct NewScroll: View {
                                         .font(.footnote)
                                     
                                     
-                                    Image("gandhi")
+                                    Image("jobs")
+                                        .resizable()
+                                        .frame(width: 40, height: 40, alignment: .center)
+                                        .clipShape(Circle())
+                                        .background(
+                                            Circle()
+                                                .fill(.cyan)
+                                                .frame(width: 40, height: 40, alignment: .center)
+                                        )
+                                        .offset(x: -210)
+                                    
+                                })
+                                
+                                NavigationLink(destination: {
+                                    MuskDetail()
+                                }, label: {
+                                    Text("Elon Musk")
+                                    
+                                        .padding(.leading, 55)
+                                        .padding(.trailing, 10)
+                                        .padding(.vertical, 3)
+                                        .foregroundColor(.cyan)
+                                        .frame(width: 200, height: 30, alignment: .leading)
+                                        .background(LinearGradient(gradient: Gradient(colors: [.gray, .black]), startPoint: .leading, endPoint: .trailing))
+                                        .cornerRadius(15)
+                                        .lineLimit(6)
+                                        .multilineTextAlignment(.leading)
+                                        .font(.footnote)
+                                    
+                                    
+                                    Image("musk")
                                         .resizable()
                                         .frame(width: 40, height: 40, alignment: .center)
                                         .clipShape(Circle())
@@ -817,9 +817,9 @@ struct NewScroll: View {
                                 
                             }
                         }
+                        .padding()
                         }
                     }
-                    .padding()
                     
                     
                     
@@ -1275,15 +1275,17 @@ struct NewScroll: View {
                     }
                         
                     }
-                    Spacer()
+                    //Spacer()
                 }
+                .padding()
+
                 
                 
             }
            // }
         }
         
-        // .padding()
+         //.padding(10)
         
         
         
