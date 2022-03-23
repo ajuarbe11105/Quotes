@@ -579,5 +579,69 @@ struct Quotes {
     
     ]
     
+    static let dylanQuote = [
+        AuthorModel(quote: "All I can do is be me, whoever that is."),
+        AuthorModel(quote: "When you've got nothing, you've got nothing to lose."),
+        AuthorModel(quote: "If you want to keep your memories, you first have to live them."),
+        AuthorModel(quote: "You don't need a weatherman to know which way the wind blows."),
+        AuthorModel(quote: "Behind every beautiful thing, there's some kind of pain."),
+        AuthorModel(quote: "People seldom do what they believe in. They do what is convenient, then repent."),
+        AuthorModel(quote: "To live outside the law, you must be honest."),
+        AuthorModel(quote: "Some people feel the rain. Others just get wet."),
+        AuthorModel(quote: "Don't criticize what you can't understand."),
+    ]
     
+    static let lennonQuote = [
+    
+    AuthorModel(quote: "There are two basic motivating forces: fear and love. When we are afraid, we pull back from life. When we are in love, we open to all that life has to offer with passion, excitement, and acceptance."),
+    AuthorModel(quote: "Turn off your mind, relax, and float downstream."),
+    AuthorModel(quote: "Everything will be okay in the end. If it’s not okay, it’s not the end."),
+    AuthorModel(quote: "When you do something beautiful and nobody noticed, do not be sad. For the sun, every morning is a beautiful spectacle and yet most of the audience still sleeps."),
+    AuthorModel(quote: "It matters not who you love, where you love, why you love, when you love or how you love, it matters only that you love."),
+    AuthorModel(quote: "If everyone could just be happy with themselves and the choices people around them make, the world would instantly be a better."),
+    AuthorModel(quote: "Count your age by friends, not years. Count your life by smiles, not tears."),
+    AuthorModel(quote: "Being honest may not get you a lot of friends but it’ll always get you the right ones."),
+    AuthorModel(quote: "Love is a promise, love is a souvenir, once given never forgotten, never let it disappear."),
+    AuthorModel(quote: "A mistake is only an error, it becomes a mistake when you fail to correct it."),
+    AuthorModel(quote: "There’s nowhere you can be that isn’t where you’re meant to be…"),
+    AuthorModel(quote: "There are no problems, only solutions."),
+    AuthorModel(quote: "Love is all you need."),
+    AuthorModel(quote: "What we’ve got to do is keep hope alive. Because without it we’ll sink."),
+    AuthorModel(quote: "It’s weird not to be weird."),
+    AuthorModel(quote: "Get out there and get peace, think peace, and live peace and breathe peace, and you’ll get it as soon as you like."),
+
+
+    ]
+    
+    static let kingQuote = [
+        AuthorModel(quote: "Get busy living, or get busy dying."),
+        AuthorModel(quote: "Monsters are real, and ghosts are real too. They live inside us, and sometimes, they win."),
+        AuthorModel(quote: "Fiction is the truth inside the lie."),
+        AuthorModel(quote: "Either get busy living or get busy dying."),
+        AuthorModel(quote: "When the time is gone, you can never get it back."),
+        AuthorModel(quote: "When asked, how do you write? I invariably answer, one word at a time."),
+        AuthorModel(quote: "The scariest moment is always just before you start. After that, things can only get better."),
+        AuthorModel(quote: "Life is like a wheel. Sooner or later, it always comes around to where you started again."),
+        AuthorModel(quote: "Remember, hope is a good thing, maybe the best of things."),
+        AuthorModel(quote: "You can, you should, and if you're brave enough to start, you will."),
+        AuthorModel(quote: "Fear can hold you prisoner. Hope can set you free."),
+        AuthorModel(quote: "When you are talented you do it whatever it is until your fingers bleed or your eyes are ready to fall out of your head."),
+        AuthorModel(quote: "Amateurs sit and wait for inspiration, the rest of us just get up and got to work."),
+        AuthorModel(quote: "The most important things are the hardest to say."),
+        
+    
+    ]
+    
+    
+    static let williamsQuotes = [
+        AuthorModel(quote: "Everyone you meet is fighting a battle you know nothing about. Be kind. Always."),
+        AuthorModel(quote: "You're only given a little spark of madness. You mustn't lose it."),
+        AuthorModel(quote: "The world is open for play, everything and everybody is mockable in a wonderful way."),
+        AuthorModel(quote: "You will have bad times, but they will always wake you up to the stuff you weren't paying attention to."),
+        AuthorModel(quote: "Real loss is only possible when you love something more than you love yourself."),
+        AuthorModel(quote: "What's right is what's left if you do everything else wrong."),
+
+    
+    
+    ]
 }

@@ -11,6 +11,10 @@
 		0B4DF8C327E800C600A90F7C /* MarleyDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B4DF8C227E800C600A90F7C /* MarleyDetail.swift */; };
 		0B4DF8C727E8043800A90F7C /* NewScroll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B4DF8C627E8043800A90F7C /* NewScroll.swift */; };
 		0B4DF8CB27E9523100A90F7C /* MuskDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B4DF8CA27E9523100A90F7C /* MuskDetail.swift */; };
+		0B4DF8CE27EAA14D00A90F7C /* DylanDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B4DF8CD27EAA14D00A90F7C /* DylanDetail.swift */; };
+		0B4DF8D027EAA97F00A90F7C /* LennonDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B4DF8CF27EAA97F00A90F7C /* LennonDetail.swift */; };
+		0B4DF8D227EAAEA100A90F7C /* KingDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B4DF8D127EAAEA100A90F7C /* KingDetail.swift */; };
+		0B4DF8D427EAB08300A90F7C /* WilliamsDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B4DF8D327EAB08300A90F7C /* WilliamsDetail.swift */; };
 		0B96A55027E42281004BBB46 /* QuotesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B96A54F27E42281004BBB46 /* QuotesApp.swift */; };
 		0B96A55427E42282004BBB46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B96A55327E42282004BBB46 /* Assets.xcassets */; };
 		0B96A55727E42282004BBB46 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B96A55627E42282004BBB46 /* Preview Assets.xcassets */; };
@@ -28,6 +32,10 @@
 		0B4DF8C227E800C600A90F7C /* MarleyDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarleyDetail.swift; sourceTree = "<group>"; };
 		0B4DF8C627E8043800A90F7C /* NewScroll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewScroll.swift; sourceTree = "<group>"; };
 		0B4DF8CA27E9523100A90F7C /* MuskDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuskDetail.swift; sourceTree = "<group>"; };
+		0B4DF8CD27EAA14D00A90F7C /* DylanDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DylanDetail.swift; sourceTree = "<group>"; };
+		0B4DF8CF27EAA97F00A90F7C /* LennonDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LennonDetail.swift; sourceTree = "<group>"; };
+		0B4DF8D127EAAEA100A90F7C /* KingDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KingDetail.swift; sourceTree = "<group>"; };
+		0B4DF8D327EAB08300A90F7C /* WilliamsDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WilliamsDetail.swift; sourceTree = "<group>"; };
 		0B96A54C27E42281004BBB46 /* Quotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Quotes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B96A54F27E42281004BBB46 /* QuotesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesApp.swift; sourceTree = "<group>"; };
 		0B96A55327E42282004BBB46 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -59,6 +67,10 @@
 				0BEB390C27E7D9850088A286 /* JobsDetail.swift */,
 				0B4DF8C227E800C600A90F7C /* MarleyDetail.swift */,
 				0B4DF8CA27E9523100A90F7C /* MuskDetail.swift */,
+				0B4DF8CD27EAA14D00A90F7C /* DylanDetail.swift */,
+				0B4DF8CF27EAA97F00A90F7C /* LennonDetail.swift */,
+				0B4DF8D127EAAEA100A90F7C /* KingDetail.swift */,
+				0B4DF8D327EAB08300A90F7C /* WilliamsDetail.swift */,
 			);
 			path = SubViews;
 			sourceTree = "<group>";
@@ -122,9 +134,9 @@
 		0B96A56527E571AF004BBB46 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				0B4DF8C627E8043800A90F7C /* NewScroll.swift */,
 				0B96A56627E571C0004BBB46 /* MainView.swift */,
 				0B96A56827E57353004BBB46 /* MainScrollView.swift */,
-				0B4DF8C627E8043800A90F7C /* NewScroll.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -203,13 +215,17 @@
 				0B96A56927E57353004BBB46 /* MainScrollView.swift in Sources */,
 				0BEB390D27E7D9850088A286 /* JobsDetail.swift in Sources */,
 				0B4DF8BF27E7FB0C00A90F7C /* AuthorModel.swift in Sources */,
+				0B4DF8D427EAB08300A90F7C /* WilliamsDetail.swift in Sources */,
 				0B96A56727E571C0004BBB46 /* MainView.swift in Sources */,
 				0B96A56B27E575F9004BBB46 /* GandhiDetail.swift in Sources */,
+				0B4DF8CE27EAA14D00A90F7C /* DylanDetail.swift in Sources */,
 				0B96A56427E42AFA004BBB46 /* AuthorQuote.swift in Sources */,
 				0B4DF8C727E8043800A90F7C /* NewScroll.swift in Sources */,
 				0B96A55027E42281004BBB46 /* QuotesApp.swift in Sources */,
+				0B4DF8D227EAAEA100A90F7C /* KingDetail.swift in Sources */,
 				0B96A56227E42368004BBB46 /* QuotesData.swift in Sources */,
 				0B4DF8CB27E9523100A90F7C /* MuskDetail.swift in Sources */,
+				0B4DF8D027EAA97F00A90F7C /* LennonDetail.swift in Sources */,
 				0B96A55E27E42312004BBB46 /* Depression.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

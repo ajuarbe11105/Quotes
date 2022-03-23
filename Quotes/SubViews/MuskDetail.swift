@@ -31,6 +31,8 @@ struct MuskDetail: View {
                 }
             }
         }
+        .navigationTitle("Elon Musk Quotes")
+        .navigationBarTitleDisplayMode(.inline)
     }
 }
 

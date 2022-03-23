@@ -187,9 +187,9 @@ struct NewScroll: View {
                             VStack {
                                 
                                 NavigationLink(destination: {
-                                    MarleyDetail()
+                                    DylanDetail()
                                 }, label: {
-                                    Text("Bob Marley")
+                                    Text("Bob Dylan")
                                     
                                         .padding(.leading, 55)
                                         .padding(.trailing, 10)
@@ -203,7 +203,7 @@ struct NewScroll: View {
                                         .font(.footnote)
                                     
                                     
-                                    Image("bobm")
+                                    Image("dylan")
                                         .resizable()
                                         .frame(width: 40, height: 40, alignment: .center)
                                         .clipShape(Circle())
@@ -217,9 +217,9 @@ struct NewScroll: View {
                                 })
                                 
                                 NavigationLink(destination: {
-                                    MarleyDetail()
+                                    LennonDetail()
                                 }, label: {
-                                    Text("Bob Marley")
+                                    Text("John Lennon")
                                     
                                         .padding(.leading, 55)
                                         .padding(.trailing, 10)
@@ -233,38 +233,7 @@ struct NewScroll: View {
                                         .font(.footnote)
                                     
                                     
-                                    Image("bobm")
-                                        .resizable()
-                                        .frame(width: 40, height: 40, alignment: .center)
-                                        .clipShape(Circle())
-                                        .background(
-                                            Circle()
-                                                .fill(.cyan)
-                                                .frame(width: 40, height: 40, alignment: .center)
-                                        )
-                                        .offset(x: -210)
-                                    
-                                })
-                                
-                                
-                                NavigationLink(destination: {
-                                    MarleyDetail()
-                                }, label: {
-                                    Text("Bob Marley")
-                                    
-                                        .padding(.leading, 55)
-                                        .padding(.trailing, 10)
-                                        .padding(.vertical, 3)
-                                        .foregroundColor(.cyan)
-                                        .frame(width: 200, height: 30, alignment: .leading)
-                                        .background(LinearGradient(gradient: Gradient(colors: [.gray, .black]), startPoint: .leading, endPoint: .trailing))
-                                        .cornerRadius(15)
-                                        .lineLimit(6)
-                                        .multilineTextAlignment(.leading)
-                                        .font(.footnote)
-                                    
-                                    
-                                    Image("bobm")
+                                    Image("lennon")
                                         .resizable()
                                         .frame(width: 40, height: 40, alignment: .center)
                                         .clipShape(Circle())
@@ -279,9 +248,9 @@ struct NewScroll: View {
                                 
                                 
                                 NavigationLink(destination: {
-                                    MarleyDetail()
+                                    KingDetail()
                                 }, label: {
-                                    Text("Bob Marley")
+                                    Text("Stephen King")
                                     
                                         .padding(.leading, 55)
                                         .padding(.trailing, 10)
@@ -295,7 +264,38 @@ struct NewScroll: View {
                                         .font(.footnote)
                                     
                                     
-                                    Image("bobm")
+                                    Image("king")
+                                        .resizable()
+                                        .frame(width: 40, height: 40, alignment: .center)
+                                        .clipShape(Circle())
+                                        .background(
+                                            Circle()
+                                                .fill(.cyan)
+                                                .frame(width: 40, height: 40, alignment: .center)
+                                        )
+                                        .offset(x: -210)
+                                    
+                                })
+                                
+                                
+                                NavigationLink(destination: {
+                                    WilliamsDetail()
+                                }, label: {
+                                    Text("Robin Williams")
+                                    
+                                        .padding(.leading, 55)
+                                        .padding(.trailing, 10)
+                                        .padding(.vertical, 3)
+                                        .foregroundColor(.cyan)
+                                        .frame(width: 200, height: 30, alignment: .leading)
+                                        .background(LinearGradient(gradient: Gradient(colors: [.gray, .black]), startPoint: .leading, endPoint: .trailing))
+                                        .cornerRadius(15)
+                                        .lineLimit(6)
+                                        .multilineTextAlignment(.leading)
+                                        .font(.footnote)
+                                    
+                                    
+                                    Image("rw")
                                         .resizable()
                                         .frame(width: 40, height: 40, alignment: .center)
                                         .clipShape(Circle())
@@ -1307,6 +1307,6 @@ struct NewScroll: View {
 
 struct NewScroll_Previews: PreviewProvider {
     static var previews: some View {
-        MainScrollView()
+        NewScroll()
     }
 }
