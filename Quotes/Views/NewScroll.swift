@@ -28,7 +28,7 @@ struct NewScroll: View {
           //  ScrollView(.horizontal, showsIndicators: false) {
                 
                     VStack {
-                        Text("Texts by people")
+                        Text("Texts by people".uppercased())
                         
                         //   VStack {
                         ScrollView(.horizontal, showsIndicators: false) {
@@ -829,7 +829,7 @@ struct NewScroll: View {
              //   Spacer()
                 
                 
-                Text("Quotes by Topic")
+                Text("Quotes by Topic".uppercased())
                 ZStack {
                     ScrollView(.horizontal, showsIndicators: false) {
 
