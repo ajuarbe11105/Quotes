@@ -20,12 +20,13 @@ struct NewScroll: View {
         NavigationView {
             
             ScrollView {
+                ZStack {
+              
                 
            
          
           //  ScrollView(.horizontal, showsIndicators: false) {
                 
-                ZStack {
                     VStack {
                         Text("Texts by people")
                         
@@ -310,9 +311,9 @@ struct NewScroll: View {
                                 
                                 
                                 NavigationLink(destination: {
-                                    MarleyDetail()
+                                    TwainDetail()
                                 }, label: {
-                                    Text("Bob Marley")
+                                    Text("Mark Twain")
                                     
                                         .padding(.leading, 55)
                                         .padding(.trailing, 10)
@@ -326,7 +327,7 @@ struct NewScroll: View {
                                         .font(.footnote)
                                     
                                     
-                                    Image("bobm")
+                                    Image("twain")
                                         .resizable()
                                         .frame(width: 40, height: 40, alignment: .center)
                                         .clipShape(Circle())
@@ -345,9 +346,9 @@ struct NewScroll: View {
                                 
                                 
                                 NavigationLink(destination: {
-                                    //LincolnDetail
+                                    MandelaDetail()
                                 }, label: {
-                                    Text("Abraham Lincoln")
+                                    Text("Nelson Mandela")
                                     
                                         .padding(.leading, 55)
                                         .padding(.trailing, 10)
@@ -361,7 +362,7 @@ struct NewScroll: View {
                                         .font(.footnote)
                                     
                                     
-                                    Image("abe")
+                                    Image("mandela")
                                         .resizable()
                                         .frame(width: 40, height: 40, alignment: .center)
                                         .clipShape(Circle())
@@ -375,9 +376,9 @@ struct NewScroll: View {
                                 })
                                 
                                 NavigationLink(destination: {
-                                    //LincolnDetail
+                                    MLKDetail()
                                 }, label: {
-                                    Text("Abraham Lincoln")
+                                    Text("Martin Luther King, Jr")
                                     
                                         .padding(.leading, 55)
                                         .padding(.trailing, 10)
@@ -391,7 +392,7 @@ struct NewScroll: View {
                                         .font(.footnote)
                                     
                                     
-                                    Image("abe")
+                                    Image("mlk")
                                         .resizable()
                                         .frame(width: 40, height: 40, alignment: .center)
                                         .clipShape(Circle())
@@ -405,9 +406,9 @@ struct NewScroll: View {
                                 })
                                 
                                 NavigationLink(destination: {
-                                    //LincolnDetail
+                                    NewtonDetail()
                                 }, label: {
-                                    Text("Abraham Lincoln")
+                                    Text("Isaac Newton")
                                     
                                         .padding(.leading, 55)
                                         .padding(.trailing, 10)
@@ -421,7 +422,7 @@ struct NewScroll: View {
                                         .font(.footnote)
                                     
                                     
-                                    Image("abe")
+                                    Image("newton")
                                         .resizable()
                                         .frame(width: 40, height: 40, alignment: .center)
                                         .clipShape(Circle())
@@ -817,7 +818,6 @@ struct NewScroll: View {
                                 
                             }
                         }
-                        .padding()
                         }
                     }
                     
@@ -825,7 +825,8 @@ struct NewScroll: View {
                     
                     
                 }
-                Spacer()
+                .padding()
+             //   Spacer()
                 
                 
                 Text("Quotes by Topic")

@@ -1,20 +1,20 @@
 //
-//  KingDetail.swift
+//  TwainDetail.swift
 //  Quotes
 //
-//  Created by Alberto Juarbe on 3/22/22.
+//  Created by Alberto Juarbe on 3/23/22.
 //
 
 import SwiftUI
 
-struct KingDetail: View {
+struct TwainDetail: View {
     
-    var king: [AuthorModel] = Quotes.kingQuote
-    
+    var twain: [AuthorModel] = Quotes.twainQuotes
     var body: some View {
+        
         ScrollView(showsIndicators: false) {
             VStack {
-                ForEach(king, id: \.id) { item in
+                ForEach(twain, id: \.id) { item in
                     RoundedRectangle(cornerRadius: 20)
                         .fill(.gray)
                         .frame(width: 400, height: 150)
@@ -30,13 +30,15 @@ struct KingDetail: View {
                 }
             }
         }
-        .navigationTitle("Martin Luther King, Jr Quotes")
+        .navigationTitle("Mark Twain Quotes")
         .navigationBarTitleDisplayMode(.inline)
+        
     }
 }
 
-struct KingDetail_Previews: PreviewProvider {
+
+struct TwainDetail_Previews: PreviewProvider {
     static var previews: some View {
-        KingDetail()
+        TwainDetail()
     }
 }

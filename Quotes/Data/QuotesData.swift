@@ -8,6 +8,7 @@
 import Foundation
 
 //Quotes link: https://parade.com/946073/parade/depression-quotes/
+//https://zenquotes.io/authors/chinese-proverb
 
 struct Quotes {
     
@@ -643,5 +644,73 @@ struct Quotes {
 
     
     
+    ]
+    
+    static let twainQuotes = [
+        
+        AuthorModel(quote: "Keep away from people who try to belittle your ambitions."),
+        AuthorModel(quote: "Everyone is a moon, and has a dark side which he never shows to anybody."),
+        AuthorModel(quote: "It's not the size of the dog in the fight, it's the size of the fight in the dog."),
+        AuthorModel(quote: "A clear conscience is the sure sign of a bad memory."),
+        AuthorModel(quote: "The two most important days in your life are the day you are born and the day you find out why."),
+        AuthorModel(quote: "If you don't read the newspaper, you're uninformed. If you read the newspaper, you're misinformed."),
+        AuthorModel(quote: "If you tell the truth, you don't have to remember anything."),
+        AuthorModel(quote: "Never argue with stupid people, they will drag you down to their level and then beat you with experience."),
+        AuthorModel(quote: "The world doesn't owe you anything. It was here first."),
+        AuthorModel(quote: "The secret of getting ahead is getting started."),
+        AuthorModel(quote: "Whenever you find yourself on the side of the majority, it is time to reform."),
+        AuthorModel(quote: "Anger is an acid that can do more harm to the vessel in which it is stored than to anything on which it is poured."),
+        AuthorModel(quote: "Always do what is right. It will gratify half of mankind and astound the other."),
+        AuthorModel(quote: "I have never let my schooling interfere with my education."),
+        AuthorModel(quote: "If you pick up a starving dog and make him prosperous he will not bite you. This is the principal difference between a dog and man."),
+        AuthorModel(quote: "A lie can travel half way around the world while the truth is putting on its shoes."),
+        AuthorModel(quote: "Kindness is a language which the deaf can hear and the blind can see."),
+        AuthorModel(quote: "Courage is resistance to fear, mastery of fear - not absence of fear."),
+        AuthorModel(quote: "Never allow someone to be your priority while allowing yourself to be their option."),
+        AuthorModel(quote: "The fear of death follows from the fear of life. A man who lives fully is prepared to die at any time."),
+        AuthorModel(quote: "The secret of getting started is breaking your complex, overwhelming tasks into small manageable tasks, and then starting on the first one."),
+    
+    ]
+    
+    static var mandelaQuotes = [
+        AuthorModel(quote: "I learned that courage was not the absence of fear, but the triumph over it. The brave man is not he who does not feel afraid, but he who conquers that fear."),
+        AuthorModel(quote: "It always seems impossible until it's done."),
+        AuthorModel(quote: "Live life as though nobody is watching, and express yourself as though everyone is listening."),
+        AuthorModel(quote: "It is what we make out of what we have, not what we are given, that separates one person from another."),
+        AuthorModel(quote: "One of the most difficult things is not to change society - but to change yourself."),
+        AuthorModel(quote: "You can start changing our world for the better daily, no matter how small the action."),
+        AuthorModel(quote: "Everyone can rise above their circumstances and achieve success if they are dedicated to and passionate about what they do."),
+        AuthorModel(quote: "There can be no greater gift than that of giving one's time and energy to help others without expecting anything in return."),
+
+    
+    ]
+    
+    static var mlk = [
+    
+        AuthorModel(quote: "The quality, not the longevity, of one's life is what is important."),
+        AuthorModel(quote: "Faith is taking the first step even when you don't see the whole staircase."),
+        AuthorModel(quote: "Darkness cannot drive out darkness; only light can do that. Hate cannot drive out hate; only love can do that."),
+        AuthorModel(quote: "We must learn to live together as brothers or perish together as fools."),
+        AuthorModel(quote: "In the End, we will remember not the words of our enemies, but the silence of our friends."),
+        AuthorModel(quote: "The time is always right to do what is right."),
+        AuthorModel(quote: "We must accept finite disappointment, but never lose infinite hope."),
+        AuthorModel(quote: "A man should do his job so well that the living, the dead, and the unborn could do it no better."),
+        AuthorModel(quote: "There can be no deep disappointment where there is not deep love."),
+
+    ]
+    
+    static var newton = [
+        AuthorModel(quote: "Live your life as an exclamation rather than an explanation."),
+        AuthorModel(quote: "To every action there is always opposed an equal reaction."),
+        AuthorModel(quote: "What we know is a drop, what we don't know is an ocean."),
+        AuthorModel(quote: "The best way to understanding is a few good examples."),
+        AuthorModel(quote: "Truth is the offspring of silence and meditation."),
+        AuthorModel(quote: "To arrive at the simplest truth requires years of contemplation."),
+        AuthorModel(quote: "Nature is pleased with simplicity. And nature is no dummy."),
+        AuthorModel(quote: "Genius is patience."),
+        AuthorModel(quote: "If I have seen further than others, it is by standing upon the shoulders of giants."),
+        AuthorModel(quote: "We build too many walls and not enough bridges."),
+        AuthorModel(quote: "No great discovery was ever made without a bold guess."),
+        AuthorModel(quote: "My powers are ordinary. Only my application brings me success."),
     ]
 }
