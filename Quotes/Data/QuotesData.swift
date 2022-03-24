@@ -406,35 +406,20 @@ struct Quotes {
     //Link to quotes: https://parade.com/1247073/marynliles/gandhi-quotes/
     
     static let gandhiQotes = [
-
         AuthorQuote(quote: "The future depends on what we do in the present."),
-        
         AuthorQuote(quote: "It’s easy to stand in the crowd but it takes courage to stand alone."),
-        
         AuthorQuote(quote: "Our greatest ability as humans is not to change the world, but to change ourselves."),
-        
         AuthorQuote(quote: "Service without humility is selfishness and egotism."),
-        
         AuthorQuote(quote: "It does not require money to live neat, clean, and dignified."),
-        
         AuthorQuote(quote: "My life is my message."),
-        
         AuthorQuote(quote: "Speak only if it improves upon the silence."),
-        
         AuthorQuote(quote: "Satisfaction lies in the effort, not in the attainment."),
-        
         AuthorQuote(quote: "Relationships are based on four principles: respect, understanding, acceptance and appreciation."),
-        
         AuthorQuote(quote: "Hate the sin, love the sinner."),
-        
         AuthorQuote(quote: "It’s easy to stand with the crowd. It takes courage to stand alone."),
-        
         AuthorQuote(quote: "Strength does not come from physical capacity. It comes from an indomitable will."),
-        
         AuthorQuote(quote: "Carefully watch your thoughts, for they become your words. Manage and watch your words, for they will become your actions. Consider and judge your actions, for they have become your habits. Acknowledge and watch your habits, for they shall become your values. Understand and embrace your values, for they become your destiny."),
-        
         AuthorQuote(quote: "The enemy is fear. We think it is hate; but, it is fear"),
-        
         AuthorQuote(quote: "Seek not greater wealth, but simpler pleasure; not higher fortune, but deeper felicity."),
         AuthorQuote(quote: "Be the change you are trying to create."),
         AuthorQuote(quote: "Our greatest ability as humans is not to change the world, but to change ourselves."),
@@ -486,7 +471,6 @@ struct Quotes {
     ]
     
     static let abeQuotes = [
-    
         AuthorModel(quote: "That some achieve great success is proof to all that others can achieve it as well."),
         AuthorModel(quote: "Give me six hours to chop down a tree and I will spend the first four sharpening the axe."),
         AuthorModel(quote: "In the end, it's not the years in your life that count. It's the life in your years."),
@@ -527,7 +511,6 @@ struct Quotes {
     ]
     
     static let muskDetail = [
-    
     AuthorModel(quote: "When something is important enough, you do it even if the odds are not in your favor."),
     AuthorModel(quote: "I do think there is a lot of potential if you have a compelling product and people are willing to pay a premium for that. I think that is what Apple has shown. You can buy a much cheaper cell phone or laptop, but Apple’s product is so much better than the alternative, and people are willing to pay that premium."),
     AuthorModel(quote: "What makes innovative thinking happen?… I think it’s really a mindset. You have to decide."),
@@ -593,7 +576,6 @@ struct Quotes {
     ]
     
     static let lennonQuote = [
-    
     AuthorModel(quote: "There are two basic motivating forces: fear and love. When we are afraid, we pull back from life. When we are in love, we open to all that life has to offer with passion, excitement, and acceptance."),
     AuthorModel(quote: "Turn off your mind, relax, and float downstream."),
     AuthorModel(quote: "Everything will be okay in the end. If it’s not okay, it’s not the end."),
@@ -647,7 +629,6 @@ struct Quotes {
     ]
     
     static let twainQuotes = [
-        
         AuthorModel(quote: "Keep away from people who try to belittle your ambitions."),
         AuthorModel(quote: "Everyone is a moon, and has a dark side which he never shows to anybody."),
         AuthorModel(quote: "It's not the size of the dog in the fight, it's the size of the fight in the dog."),
@@ -685,8 +666,7 @@ struct Quotes {
     
     ]
     
-    static var mlk = [
-    
+    static var mlkQuotes = [
         AuthorModel(quote: "The quality, not the longevity, of one's life is what is important."),
         AuthorModel(quote: "Faith is taking the first step even when you don't see the whole staircase."),
         AuthorModel(quote: "Darkness cannot drive out darkness; only light can do that. Hate cannot drive out hate; only love can do that."),
@@ -699,7 +679,7 @@ struct Quotes {
 
     ]
     
-    static var newton = [
+    static var newtonQuotes = [
         AuthorModel(quote: "Live your life as an exclamation rather than an explanation."),
         AuthorModel(quote: "To every action there is always opposed an equal reaction."),
         AuthorModel(quote: "What we know is a drop, what we don't know is an ocean."),
@@ -712,5 +692,21 @@ struct Quotes {
         AuthorModel(quote: "We build too many walls and not enough bridges."),
         AuthorModel(quote: "No great discovery was ever made without a bold guess."),
         AuthorModel(quote: "My powers are ordinary. Only my application brings me success."),
+    ]
+    
+    static var elvisQuotes = [
+    
+    AuthorModel(quote: "If you let your head get too big, it'll break your neck."),
+    AuthorModel(quote: "When things go wrong, don't go with them."),
+    AuthorModel(quote: "Sad thing is, you can still love someone and be wrong for them."),
+    AuthorModel(quote: "Do something worth remembering."),
+    AuthorModel(quote: "To judge a man by his weakest link or deed is like judging the power of the ocean by one wave."),
+    AuthorModel(quote: "Life is love and love is life."),
+    AuthorModel(quote: "Animals don't hate, and we're supposed to be better than them."),
+    AuthorModel(quote: "Values are like fingerprints. Nobody's are the same, but you leave 'em all over everything you do."),
+    AuthorModel(quote: "Truth is like the sun. You can shut it out for a time, but it ain't going away."),
+    AuthorModel(quote: "People think you're crazy if you talk about things they don't understand"),
+
+    
     ]
 }

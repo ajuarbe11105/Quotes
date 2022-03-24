@@ -19,6 +19,7 @@
 		0B4DF8D827EC031500A90F7C /* MandelaDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B4DF8D727EC031500A90F7C /* MandelaDetail.swift */; };
 		0B4DF8DA27EC04F200A90F7C /* MLKDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B4DF8D927EC04F200A90F7C /* MLKDetail.swift */; };
 		0B4DF8DC27EC073800A90F7C /* NewtonDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B4DF8DB27EC073800A90F7C /* NewtonDetail.swift */; };
+		0B4DF8DE27EC993500A90F7C /* ElvisDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B4DF8DD27EC993500A90F7C /* ElvisDetail.swift */; };
 		0B96A55027E42281004BBB46 /* QuotesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B96A54F27E42281004BBB46 /* QuotesApp.swift */; };
 		0B96A55427E42282004BBB46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B96A55327E42282004BBB46 /* Assets.xcassets */; };
 		0B96A55727E42282004BBB46 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B96A55627E42282004BBB46 /* Preview Assets.xcassets */; };
@@ -44,6 +45,7 @@
 		0B4DF8D727EC031500A90F7C /* MandelaDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MandelaDetail.swift; sourceTree = "<group>"; };
 		0B4DF8D927EC04F200A90F7C /* MLKDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MLKDetail.swift; sourceTree = "<group>"; };
 		0B4DF8DB27EC073800A90F7C /* NewtonDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewtonDetail.swift; sourceTree = "<group>"; };
+		0B4DF8DD27EC993500A90F7C /* ElvisDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElvisDetail.swift; sourceTree = "<group>"; };
 		0B96A54C27E42281004BBB46 /* Quotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Quotes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B96A54F27E42281004BBB46 /* QuotesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesApp.swift; sourceTree = "<group>"; };
 		0B96A55327E42282004BBB46 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -83,6 +85,7 @@
 				0B4DF8D727EC031500A90F7C /* MandelaDetail.swift */,
 				0B4DF8D927EC04F200A90F7C /* MLKDetail.swift */,
 				0B4DF8DB27EC073800A90F7C /* NewtonDetail.swift */,
+				0B4DF8DD27EC993500A90F7C /* ElvisDetail.swift */,
 			);
 			path = SubViews;
 			sourceTree = "<group>";
@@ -242,6 +245,7 @@
 				0B4DF8CB27E9523100A90F7C /* MuskDetail.swift in Sources */,
 				0B4DF8D027EAA97F00A90F7C /* LennonDetail.swift in Sources */,
 				0B4DF8DA27EC04F200A90F7C /* MLKDetail.swift in Sources */,
+				0B4DF8DE27EC993500A90F7C /* ElvisDetail.swift in Sources */,
 				0B96A55E27E42312004BBB46 /* Depression.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
