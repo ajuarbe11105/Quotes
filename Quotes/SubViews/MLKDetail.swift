@@ -9,7 +9,7 @@ import SwiftUI
 
 struct MLKDetail: View {
     
-    var mlk: [AuthorModel] = Quotes.mlk
+    var mlk: [AuthorModel] = Quotes.mlkQuotes
     
     var body: some View {
         

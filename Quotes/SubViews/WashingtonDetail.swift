@@ -1,21 +1,21 @@
 //
-//  NewtonDetail.swift
+//  WashingtonDetail.swift
 //  Quotes
 //
-//  Created by Alberto Juarbe on 3/23/22.
+//  Created by Alberto Juarbe on 3/24/22.
 //
 
 import SwiftUI
 
-struct NewtonDetail: View {
+struct WashingtonDetail: View {
     
-    var newton: [AuthorModel] = Quotes.newtonQuotes 
+    var washingon: [AuthorModel] = Quotes.washingtonQuotes
+    
     var body: some View {
-        
         
         ScrollView(showsIndicators: false) {
             VStack {
-                ForEach(newton, id: \.id) { item in
+                ForEach(washingon, id: \.id) { item in
                     RoundedRectangle(cornerRadius: 20)
                         .fill(.gray)
                         .frame(width: 400, height: 150)
@@ -31,13 +31,13 @@ struct NewtonDetail: View {
                 }
             }
         }
-        .navigationTitle("Isaac Newton Quotes")
+        .navigationTitle("Denzel Washington Quotes")
         .navigationBarTitleDisplayMode(.inline)
     }
 }
 
-struct NewtonDetail_Previews: PreviewProvider {
+struct WashingtonDetail_Previews: PreviewProvider {
     static var previews: some View {
-        NewtonDetail()
+        WashingtonDetail()
     }
 }

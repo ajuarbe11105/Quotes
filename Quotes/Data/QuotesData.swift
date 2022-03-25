@@ -709,4 +709,21 @@ struct Quotes {
 
     
     ]
+    
+    static var washingtonQuotes = [
+        AuthorModel(quote: "Don't just aspire to make a living. Aspire to make a difference."),
+        AuthorModel(quote: "Goals on the road to achievement cannot be achieved without discipline and consistency."),
+        AuthorModel(quote: "If I am a cup maker, I’m interested in making the best cup I possibly can. My effort goes into that cup, not what people think about it."),
+        AuthorModel(quote: "Every day, sincerely and without phoniness, try to understand and appreciate the people who work with you. Do your job well, learn your job well, but always remember that the people you work with are your most valuable asset. Embrace them. Honor them. Respect them."),
+        AuthorModel(quote: "What it taught me was forgiveness. It taught me that when people present themselves in a certain way, there’s probably some back story or issue or reason for the way that they are... And a lot of times, it’s about something that’s completely out of their control."),
+        AuthorModel(quote: "If you have an enemy, then learn and know your enemy, don’t just be mad at him or her."),
+        AuthorModel(quote: "Every failed experiment is one step closer to success."),
+        AuthorModel(quote: "There are two kinds of pain in this world. The pain that hurts, the pain that alters."),
+        AuthorModel(quote: "You practice anything a long time, you get good at it. You tell a hundred lies a day, it sounds like the truth. Everyone betrays everyone."),
+        AuthorModel(quote: "You can beat or jail me or even kill me, but I am not going to be what you want me to be!"),
+        AuthorModel(quote: "The chances you take, the people you meet, the people you love, the faith that you have. That's what's going to define you."),
+        AuthorModel(quote: "At the end of the day, it’s not about what you have or even what you’ve accomplished. It’s about what you’ve done with those accomplishments. It’s about who you’ve lifted up, who you’ve made better. It’s about what you’ve given back."),
+
+    
+    ]
 }

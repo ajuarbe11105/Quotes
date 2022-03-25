@@ -439,7 +439,7 @@ struct NewScroll: View {
                                 NavigationLink(destination: {
                                     //LincolnDetail
                                 }, label: {
-                                    Text("Abraham Lincoln")
+                                    Text("Elvis Presley")
                                     
                                         .padding(.leading, 55)
                                         .padding(.trailing, 10)
@@ -453,7 +453,7 @@ struct NewScroll: View {
                                         .font(.footnote)
                                     
                                     
-                                    Image("abe")
+                                    Image("elvis")
                                         .resizable()
                                         .frame(width: 40, height: 40, alignment: .center)
                                         .clipShape(Circle())
@@ -470,7 +470,7 @@ struct NewScroll: View {
                                 NavigationLink(destination: {
                                     //LincolnDetail
                                 }, label: {
-                                    Text("Abraham Lincoln")
+                                    Text("Denzel Washington")
                                     
                                         .padding(.leading, 55)
                                         .padding(.trailing, 10)
@@ -484,7 +484,7 @@ struct NewScroll: View {
                                         .font(.footnote)
                                     
                                     
-                                    Image("abe")
+                                    Image("washington")
                                         .resizable()
                                         .frame(width: 40, height: 40, alignment: .center)
                                         .clipShape(Circle())
@@ -1288,11 +1288,8 @@ struct NewScroll: View {
         
          //.padding(10)
         
-        
-        
-        
-            
-        
+        .navigationViewStyle(StackNavigationViewStyle())
+
         
         
     }

@@ -30,6 +30,7 @@
 		0B96A56927E57353004BBB46 /* MainScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B96A56827E57353004BBB46 /* MainScrollView.swift */; };
 		0B96A56B27E575F9004BBB46 /* GandhiDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B96A56A27E575F9004BBB46 /* GandhiDetail.swift */; };
 		0BEB390D27E7D9850088A286 /* JobsDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BEB390C27E7D9850088A286 /* JobsDetail.swift */; };
+		0BFABDF127ED47F00007BA3A /* WashingtonDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BFABDF027ED47F00007BA3A /* WashingtonDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -57,6 +58,7 @@
 		0B96A56827E57353004BBB46 /* MainScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScrollView.swift; sourceTree = "<group>"; };
 		0B96A56A27E575F9004BBB46 /* GandhiDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GandhiDetail.swift; sourceTree = "<group>"; };
 		0BEB390C27E7D9850088A286 /* JobsDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobsDetail.swift; sourceTree = "<group>"; };
+		0BFABDF027ED47F00007BA3A /* WashingtonDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WashingtonDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 				0B4DF8D727EC031500A90F7C /* MandelaDetail.swift */,
 				0B4DF8D927EC04F200A90F7C /* MLKDetail.swift */,
 				0B4DF8DB27EC073800A90F7C /* NewtonDetail.swift */,
+				0BFABDF027ED47F00007BA3A /* WashingtonDetail.swift */,
 				0B4DF8DD27EC993500A90F7C /* ElvisDetail.swift */,
 			);
 			path = SubViews;
@@ -240,6 +243,7 @@
 				0B4DF8C727E8043800A90F7C /* NewScroll.swift in Sources */,
 				0B96A55027E42281004BBB46 /* QuotesApp.swift in Sources */,
 				0B4DF8D227EAAEA100A90F7C /* KingDetail.swift in Sources */,
+				0BFABDF127ED47F00007BA3A /* WashingtonDetail.swift in Sources */,
 				0B96A56227E42368004BBB46 /* QuotesData.swift in Sources */,
 				0B4DF8DC27EC073800A90F7C /* NewtonDetail.swift in Sources */,
 				0B4DF8CB27E9523100A90F7C /* MuskDetail.swift in Sources */,
