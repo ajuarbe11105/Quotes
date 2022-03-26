@@ -435,6 +435,61 @@ struct Quotes {
 //
    ]
     
+    static let lifeQuotes  = [
+        QuoteTheme(quote: "Life is what happens when you’re busy making other plans.",
+                   author: "John Lennon"),
+        QuoteTheme(quote: "You only live once, but if you do it right, once is enough.",
+                   author: "Mae West"),
+        QuoteTheme(quote: "Never let the fear of striking out keep you from playing the game",
+                   author: "Babe Ruth"),
+        QuoteTheme(quote: "Money and success don’t change people; they merely amplify what is already there.",
+                   author: "Will Smith"),
+        QuoteTheme(quote: "Not how long, but how well you have lived is the main thing.",
+                   author: "Seneca"),
+        QuoteTheme(quote: "In order to write about life first you must live it.",
+                   author: "Ernest Hemingway"),
+        QuoteTheme(quote: "The big lesson in life, baby, is never be scared of anyone or anything.",
+                   author: "Frank Sinatra"),
+        QuoteTheme(quote: "Sing like no one’s listening, love like you’ve never been hurt, dance like nobody’s watching, and live like it’s heaven on earth.",
+                   author: "Unknown"),
+        QuoteTheme(quote: "Curiosity about life in all of its aspects, I think, is still the secret of great creative people.",
+                   author: "Leo Burnett"),
+        QuoteTheme(quote: "Life is not a problem to be solved, but a reality to be experienced.",
+                   author: "Soren Kierkegaard"),
+        QuoteTheme(quote: "Turn your wounds into wisdom.",
+                   author: "Oprah Winfrey"),
+        QuoteTheme(quote: "The way I see it, if you want the rainbow, you gotta put up with the rain.",
+                   author: "Dolly Parton"),
+        QuoteTheme(quote: "Don’t settle for what life gives you; make life better and build something.",
+                   author: "Ashton Kutcher"),
+        QuoteTheme(quote: "Everybody wants to be famous, but nobody wants to do the work. I live by that. You grind hard so you can play hard. At the end of the day, you put all the work in, and eventually it’ll pay off. It could be in a year, it could be in 30 years. Eventually, your hard work will pay off.",
+                   author: "Kevin Hart"),
+        QuoteTheme(quote: "You never really learn much from hearing yourself speak.",
+                   author: "George Clooney"),
+        QuoteTheme(quote: "Live for each second without hesitation.",
+                   author: "Elton John"),
+        QuoteTheme(quote: "Your work is going to fill a large part of your life, and the only way to be truly satisfied is to do what you believe is great work. And the only way to do great work is to love what you do. If you haven’t found it yet, keep looking. Don’t settle. As with all matters of the heart, you’ll know when you find it.",
+                   author: "Steve Jobs"),
+        QuoteTheme(quote: "Life is ten percent what happens to you and ninety percent how you respond to it.",
+                   author: "Charles Swindoll"),
+        QuoteTheme(quote: "Keep smiling, because life is a beautiful thing and there’s so much to smile about",
+                   author: "Marilyn Monroe"),
+        QuoteTheme(quote: "Good friends, good books, and a sleepy conscience: this is the ideal life.",
+                   author: "Mark Twain"),
+        QuoteTheme(quote: "Live in the sunshine, swim the sea, drink the wild air.",
+                   author: "Ralph Waldo Emerson"),
+        QuoteTheme(quote: "Life is what we make it, always has been, always will be.",
+                   author: "Grandma Moses"),
+        QuoteTheme(quote: "Life is about making an impact, not making an income.",
+                   author: "Kevin Kruse"),
+        QuoteTheme(quote: "Life shrinks or expands in proportion to one’s courage.",
+                   author: "Anais Nin"),
+        QuoteTheme(quote: "I believe every human has a finite number of heartbeats. I don’t intend to waste any of mine.",
+                   author: "Neil Armstrong"),
+
+//https://parade.com/937586/parade/life-quotes/ 62
+    ]
+    
     static let affirmationQuotes = [
         QuoteTheme(quote: "You are loved just for being who you are, just for existing.",
                    author: "Ram Dass"),
@@ -569,10 +624,33 @@ struct Quotes {
         QuoteTheme(quote: "Just because I can’t explain the feelings causing my anxiety doesn’t make them less valid.",
                    author: "Lauren Elizabeth"),
         QuoteTheme(quote: "Trust yourself. You’ve survived a lot, and you’ll survive whatever is coming.",
-                   author: "Robert Tew")
+                   author: "Robert Tew"),
+        QuoteTheme(quote: "I tell you the past is a bucket of ashes, so live not in your yesterdays, not just for tomorrow, but in the here and now. Keep moving and forget the post mortems; and remember, no one can get the jump on the future.",
+                   author: "Carl Sandburg"),
+        QuoteTheme(quote: "People have a hard time letting go of their suffering. Out of a fear of the unknown, they prefer suffering that is familiar.",
+                   author: "Thich Nhat Hanh"),
+        QuoteTheme(quote: "The way you tell your story to yourself matters.",
+                   author: "Amy Cuddy"),
+        QuoteTheme(quote: "Believe in yourself and all that you are. Know that there is something inside of you that is greater than any obstacle.",
+                   author: "Christian D. Larson"),
+        QuoteTheme(quote: "Don’t settle: Don’t finish crappy books. If you don’t like the menu, leave the restaurant. If you’re not on the right path, get off it.",
+                   author: "Chris Brogan"),
+        QuoteTheme(quote: "Don’t waste your time in anger, regrets, worries, and grudges. Life is too short to be unhappy.",
+                   author: "Roy T. Bennett"),
+        QuoteTheme(quote: "Never worry about your heart till it stops beating.",
+                   author: "E. B. White"),
+        QuoteTheme(quote: "When I look back on all these worries, I remember the story of the old man who said on his deathbed that he had had a lot of trouble in his life, most of which had never happened.",
+                   author: "Winston S. Churchill"),
+        QuoteTheme(quote: "Worry in the dark can make it even darker.",
+                   author: "Camron Wright"),
+        QuoteTheme(quote: "Don’t let your mind bully your body into believing it must carry the burden of its worries.",
+                   author: "Astrid Alauda"),
+        QuoteTheme(quote: "Nothing is permanent in this wicked world — not even our troubles.",
+                   author: "Charlie Chaplin"),
+        QuoteTheme(quote: "Inner peace begins the moment you choose not to allow another person or event to control your emotions.",
+                   author: "Pema Chodron"),
         
-        //https://www.happierhuman.com/anxiety-quotes/ on number  57
-        
+        //https://www.happierhuman.com/anxiety-quotes/ on number  90
         
     ]
     
@@ -641,9 +719,8 @@ struct Quotes {
         AuthorQuote(quote: "You must not lose faith in humanity. Humanity is an ocean; if a few drops of the ocean are dirty, the ocean does not become dirty."),
         AuthorQuote(quote: "For me, the different religions are beautiful flowers from the same garden, or they are branches of the same majestic tree. Therefore, they are equally true, though being received and interpreted through human instruments are equally imperfect."),
         AuthorQuote(quote: "For me, the different religions are beautiful flowers from the same garden, or they are branches of the same majestic tree. Therefore, they are equally true, though being received and interpreted through human instruments are equally imperfect."),
-        AuthorQuote(quote: "To believe in something, and not to live it, is dishonest.")
-        
-        
+        AuthorQuote(quote: "To believe in something, and not to live it, is dishonest."),
+
     ]
     
     static let abeQuotes = [
