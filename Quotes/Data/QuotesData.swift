@@ -10,74 +10,106 @@ import Foundation
 //Quotes link: https://parade.com/946073/parade/depression-quotes/
 //https://zenquotes.io/authors/chinese-proverb
 
+
+
+
+/*
+ QUOTE THEME
+ 
+ AFFIRMATION - Setting
+ ANXIETY
+ CHANGE
+ COURAGE
+ CHOICE
+ DEATH
+ DREAMS
+ CONFIDENCE
+ DEPRESSION - STARTED
+ FEAR
+ FAILURE
+ FAIRNESS
+ FORGIVENESS
+ HAPPINESS
+ INSPIRATION & MOTIVATION
+ WORK
+ TRUTH
+ PAIN
+ LOVE
+ 
+ 
+ 
+ 
+ */
+
+
 struct Quotes {
     
     static let depressionQuotes = [
     
-    Depression(quote: "I found that with depression, one of the most important things you could realize is that you’re not alone",
-               author: " - Dwayne Johnson"),
+    QuoteTheme(quote: "I found that with depression, one of the most important things you could realize is that you’re not alone",
+               author: "Dwayne Johnson"),
     
-    Depression(quote: "You say you’re ‘depressed’ – all I see is resilience. You are allowed to feel messed up and inside out. It doesn’t mean you’re defective – it just means you’re human.",
-               author: " - David Mitchell, Cloud Atlas"),
+    QuoteTheme(quote: "You say you’re ‘depressed’ – all I see is resilience. You are allowed to feel messed up and inside out. It doesn’t mean you’re defective – it just means you’re human.",
+               author: "David Mitchell, Cloud Atlas"),
     
-    Depression(quote: "Try to understand the blackness, lethargy, hopelessness, and loneliness they’re going through. Be there for them when they come through the other side. It’s hard to be a friend to someone who’s depressed, but it is one of the kindest, noblest, and best things you will ever do",
-               author: " - Stephen Fry"),
+    QuoteTheme(quote: "Try to understand the blackness, lethargy, hopelessness, and loneliness they’re going through. Be there for them when they come through the other side. It’s hard to be a friend to someone who’s depressed, but it is one of the kindest, noblest, and best things you will ever do",
+               author: "Stephen Fry"),
     
-    Depression(quote: "People who have never dealt with depression think it’s just being sad or being in a bad mood. That’s not what depression is for me; it’s falling into a state of grayness and numbness",
-               author: " — Dan Reynolds"),
+    QuoteTheme(quote: "People who have never dealt with depression think it’s just being sad or being in a bad mood. That’s not what depression is for me; it’s falling into a state of grayness and numbness",
+               author: "Dan Reynolds"),
     
-    Depression(quote: "I go through a lot of depression, and I know other people do, too, but I have an outlet that so many people don’t. If you have that inside of you and can’t get it out, what do you do",
-               author: " – Billie Eilish"),
+    QuoteTheme(quote: "I go through a lot of depression, and I know other people do, too, but I have an outlet that so many people don’t. If you have that inside of you and can’t get it out, what do you do",
+               author: "Billie Eilish"),
     
-    Depression(quote: "A big part of depression is feeling really lonely, even if you’re in a room full of a million people",
-               author: " — Lilly Singh"),
+    QuoteTheme(quote: "A big part of depression is feeling really lonely, even if you’re in a room full of a million people",
+               author: "Lilly Singh"),
     
-    Depression(quote: "When you’re surrounded by all these people, it can be lonelier than when you’re by yourself. You can be in a huge crowd, but if you don’t feel like you can trust anyone or talk to anybody, you feel like you’re really alone.",
-               author: " — Fiona Apple"),
+    QuoteTheme(quote: "When you’re surrounded by all these people, it can be lonelier than when you’re by yourself. You can be in a huge crowd, but if you don’t feel like you can trust anyone or talk to anybody, you feel like you’re really alone.",
+               author: "Fiona Apple"),
     
-    Depression(quote: "Mental pain is less dramatic than physical pain, but it is more common and also more hard to bear. The frequent attempt to conceal mental pain increases the burden: it is easier to say, ‘My tooth is aching’ than to say, ‘My heart is broken.’ ",
-               author: "― C.S. Lewis, The Problem of Pain"),
+    QuoteTheme(quote: "Mental pain is less dramatic than physical pain, but it is more common and also more hard to bear. The frequent attempt to conceal mental pain increases the burden: it is easier to say, ‘My tooth is aching’ than to say, ‘My heart is broken.’ ",
+               author: "C.S. Lewis, The Problem of Pain"),
 
-    Depression(quote: "Depression, for me, has been a couple of different things – but the first time I felt it, I felt helpless, hopeless, and things I had never felt before. I lost myself and my will to live",
-               author: "— Ginger Zee"),
+    QuoteTheme(quote: "Depression, for me, has been a couple of different things – but the first time I felt it, I felt helpless, hopeless, and things I had never felt before. I lost myself and my will to live",
+               author: "Ginger Zee"),
 
-    Depression(quote: "That’s the thing about depression: A human being can survive almost anything, as long as she sees the end in sight. But depression is so insidious, and it compounds daily, that it’s impossible to ever see the end",
-               author: "– Elizabeth Wurtzel"),
+    QuoteTheme(quote: "That’s the thing about depression: A human being can survive almost anything, as long as she sees the end in sight. But depression is so insidious, and it compounds daily, that it’s impossible to ever see the end",
+               author: "Elizabeth Wurtzel"),
 
-    Depression(quote: "I am bent, but not broken. I am scarred, but not disfigured. I am sad, but not hopeless. I am tired, but not powerless. I am angry, but not bitter. I am depressed, but not giving up",
-               author: " — Anonymous"),
+    QuoteTheme(quote: "I am bent, but not broken. I am scarred, but not disfigured. I am sad, but not hopeless. I am tired, but not powerless. I am angry, but not bitter. I am depressed, but not giving up",
+               author: "Anonymous"),
 
-    Depression(quote: "I’ll never forget how the depression and loneliness felt good and bad at the same time. Still does.",
-               author: "― Henry Rollins, The Portable Henry Rollins"),
-
-
-    Depression(quote: "I have depression. But I prefer to say, ‘I battle’ depression instead of ‘I suffer’ with it. Because depression hits, but I hit back. Battle on",
-               author: "— Anonymous"),
-
-    Depression(quote: "Depression is being colorblind and constantly told how colorful the world is.",
-               author: "— Atticus, Love Her Wild"),
-
-    Depression(quote: "It is very hard to explain to people who have never known serious depression or anxiety the sheer continuous intensity of it. There is no off switch.",
-               author: "– Matt Haig"),
-
-    Depression(quote: "There is no point treating a depressed person as though she were just feeling sad, saying, ‘There now, hang on, you’ll get over it.’ Sadness is more or less like a head cold – with patience, it passes. Depression is like cancer.",
-               author: " ― Barbara Kingsolver, The Bean Trees"),
+    QuoteTheme(quote: "I’ll never forget how the depression and loneliness felt good and bad at the same time. Still does.",
+               author: "Henry Rollins, The Portable Henry Rollins"),
 
 
-    Depression(quote: "Mental illness is so much more complicated than any pill that any mortal could invent.",
-               author: "– Elizabeth Wintzel"),
+    QuoteTheme(quote: "I have depression. But I prefer to say, ‘I battle’ depression instead of ‘I suffer’ with it. Because depression hits, but I hit back. Battle on",
+               author: "Anonymous"),
 
-    Depression(quote: "Depression, suffering and anger are all part of being human.",
-               author: "– Janet Fitch"),
+    QuoteTheme(quote: "Depression is being colorblind and constantly told how colorful the world is.",
+               author: "Atticus, Love Her Wild"),
 
-    Depression(quote: "Every man has his secret sorrows which the world knows not; and often times we call a man cold when he is only sad.",
-               author: "― Henry Wadsworth Longfellow"),
-//
-//    Depression(quote: <#T##String#>,
-//               author: <#T##String#>),
-//
-//    Depression(quote: <#T##String#>,
-//               author: <#T##String#>),
+    QuoteTheme(quote: "It is very hard to explain to people who have never known serious depression or anxiety the sheer continuous intensity of it. There is no off switch.",
+               author:  "Matt Haig"),
+
+    QuoteTheme(quote: "There is no point treating a depressed person as though she were just feeling sad, saying, ‘There now, hang on, you’ll get over it.’ Sadness is more or less like a head cold – with patience, it passes. Depression is like cancer.",
+               author: "Barbara Kingsolver, The Bean Trees"),
+
+
+    QuoteTheme(quote: "Mental illness is so much more complicated than any pill that any mortal could invent.",
+               author: "Elizabeth Wintzel"),
+
+    QuoteTheme(quote: "Depression, suffering and anger are all part of being human.",
+               author: "Janet Fitch"),
+
+    QuoteTheme(quote: "Every man has his secret sorrows which the world knows not; and often times we call a man cold when he is only sad.",
+               author: "Henry Wadsworth Longfellow"),
+
+    QuoteTheme(quote: "Depression is feeling like you've lost something but having no clue when or where you last had it. Then one day you realize what you lost is yourself.",
+               author: "Unknown"),
+
+    QuoteTheme(quote: "The hardest thing about depression is that it is addictive. It begins to feel uncomfortable not to be depressed. You feel guilty for feeling happy..",
+               author: "Pete Wentz"),
 //
 //    Depression(quote: <#T##String#>,
 //               author: <#T##String#>),
@@ -403,6 +435,150 @@ struct Quotes {
 //
    ]
     
+    static let affirmationQuotes = [
+        QuoteTheme(quote: "You are loved just for being who you are, just for existing.",
+                   author: "Ram Dass"),
+        QuoteTheme(quote: "Nothing is impossible. The word says \"I'm possible",
+                   author: "Audrey Hepburn"),
+        QuoteTheme(quote: "Am I good enough? Yes I am!",
+                   author: "Unknown"),
+        QuoteTheme(quote: "I am worthy of what I desire.",
+                   author: "Gabby Bernstein"),
+        QuoteTheme(quote: "Every day you wake up is a great day!",
+                   author: "Unknown"),
+        QuoteTheme(quote: "Nohting can dim the light that shines from within.",
+                   author: "Maya Angelou"),
+        QuoteTheme(quote: "Who you are inside is what helps you make and do everything in life.",
+                   author: "Fred Rogers"),
+        QuoteTheme(quote: "A positive attitude gives you power over your circumstances instead of your circumstances having power over you.",
+                   author: "Joyce Meyer"),
+        QuoteTheme(quote: "I think that little by little, I’ll be able to solve my problems and survive.",
+                   author: "Frida Kahlo"),
+        QuoteTheme(quote: "I am the greatest. I said that even before I knew I was.",
+                   author: "Muhammed Ali"),
+        QuoteTheme(quote: "Bravery is not the absence of fear. Bravery is feeling the fear, the doubt, the insecurity, and deciding that something else is more important.”",
+                   author: "Mark Manson"),
+        QuoteTheme(quote: "“I began to realize how important it was to be an enthusiast in life. If you are interested in something, no matter what it is. Go at it full speed. Embrace it with both arms, hug it, love it and above all become passionate about it. Lukewarm is no good.”",
+                   author: "Roald Dahl"),
+        QuoteTheme(quote: "Build your own dreams, or someone else will hire you to build theirs.",
+                   author: "Unknown"),
+        QuoteTheme(quote: "If you don't decide what your priorirites are in life, everyone else will decide for you.",
+                   author: "Christy Wright"),
+        QuoteTheme(quote: "No matter what gets done and how much is left undone, I am enough.",
+                   author: "Brene Brown"),
+        QuoteTheme(quote: "Always do what you are afraid to do.",
+                   author: "Ralph Waldo Emerson"),
+        QuoteTheme(quote: "Real growth is not about becoming bigger; badder; more powerful; it's about becoming softer, more compassionate, and more at ease with truth and vulnerability.",
+                   author: "Rebekah Borucki"),
+        QuoteTheme(quote: "The need for change bulldozed a road down the center of my mind.",
+                   author: "Maya Angelou"),
+        QuoteTheme(quote: "For there is always light / If only we’re brave enough to see it / If only we’re brave enough to be it.",
+                   author: "Amanda Gorman"),
+        QuoteTheme(quote: "It’s a good day to have a good day.",
+                   author: "Unknown"),
+        QuoteTheme(quote: "Each day is the field of brightness where the invitation of our life unfolds.",
+                   author: "John O’Donohue, from Benedictus: A Book of Blessings"),
+        QuoteTheme(quote: "Real change, enduring change, happens one step at a time.",
+                   author: "Ruth Bader Ginsburg"),
+        QuoteTheme(quote: "You are a miracle. You have come to this earth for a brief parenthesis in eternity for a reason. And staying aligned with what feels like your purpose is the key to living a fully functioning life.",
+                   author: "Dr. Wayne W. Dyer"),
+        QuoteTheme(quote: "I know that where I am in my life, now, is both temporary and exactly where I need to be to learn what I must learn, so that I can become the person I need to be to create the life I truly want.",
+                   author: "Hal Elrod, The Miracle Morning"),
+        QuoteTheme(quote: "I can do anything but not everything.",
+                   author: "Greg McKeown, Essentialism"),
+        QuoteTheme(quote: "When you feel the need to apologize or explain who you are, it means the voice in your head is telling you the wrong story. Wipe the slate clean. And rewrite it.",
+                   author: "Shonda Rhimes"),
+        QuoteTheme(quote: "I am loved. ",
+                   author: "Unknown"),
+        QuoteTheme(quote: "I love the way I feel when I take care of me.",
+                   author: "Unknown"),
+        QuoteTheme(quote: "I completely trust my inner voice.",
+                   author: "Unknown"),
+        QuoteTheme(quote: "Today I follow my heart and discover my destiny.",
+                   author: "Unknown"),
+    ]
+    
+        ///MARK: ANXIETY
+    static let anxietyQuotes = [
+        QuoteTheme(quote: "No need to hurry. No need to sparkle. No need to be anybody but oneself.",
+                   author: "Virginia Woolf"),
+        QuoteTheme(quote: "Every time you are tempted to react in the same old way, ask if you want to be a prisoner of the past or a pioneer of the future.",
+                   author: "Deepak Chopra"),
+        QuoteTheme(quote: "Smile, breathe, and go slowly.",
+                   author: "Thich Nhat Hanh"),
+        QuoteTheme(quote: "You don’t have to control your thoughts. You just have to stop letting them control you.",
+                   author: "Dan Millman"),
+        QuoteTheme(quote: "Don’t worry if people think you’re crazy. You are crazy. You have that kind of intoxicating insanity that lets other people dream outside of the lines and become who they’re destined to be.",
+                   author: "Jennifer Elisabeth"),
+        QuoteTheme(quote: "Do not let your difficulties fill you with anxiety; after all it is only in the darkest nights that stars shine more brightly.",
+                   author: "Ali Ibn Abi Talib"),
+        QuoteTheme(quote: "It’s OKAY to be scared. Being scared means you’re about to do something really, really brave.",
+                   author: "Mandy Hale"),
+        QuoteTheme(quote: "Anxiety was born in the very same moment as mankind. And since we will never be able to master it, we will have to learn to live with it—just as we have learned to live with storms.",
+                   author: "Paulo Coelho"),
+        QuoteTheme(quote: "I promise you nothing is as chaotic as it seems. Nothing is worth diminishing your health. Nothing is worth poisoning yourself into stress, anxiety, and fear.",
+                   author: "Steve Maraboli"),
+        QuoteTheme(quote: "Our anxiety does not come from thinking about the future, but from wanting to control it.",
+                   author: "Kahlil Gibran"),
+        QuoteTheme(quote: "He who is not everyday conquering some fear has not learned the secret of life.",
+                   author: "Shannon L. Alder"),
+        QuoteTheme(quote: "Hey you, keep living. It won’t always be this overwhelming.",
+                   author: "Jacqueline Whitney"),
+        QuoteTheme(quote: "Sometimes the most important thing in a whole day is the rest taken between two deep breaths.",
+                   author: "Etty Hillesum"),
+        QuoteTheme(quote: "If you treat every situation as a life and death matter, you’ll die a lot of times.",
+                   author: "Dean Smith"),
+        QuoteTheme(quote: "Every tomorrow has two handles. We can take hold of it with the handle of anxiety or the handle of faith.",
+                   author: "Henry Ward Beecher"),
+        QuoteTheme(quote: "Worry a little bit every day and in a lifetime you will lose a couple of years. If something is wrong, fix it if you can. But train yourself not to worry. Worry never fixes anything.",
+                   author: "Mary Hemingway"),
+        QuoteTheme(quote: "What people in the world think of you is really none of your business.",
+                   author: "Martha Graham"),
+        QuoteTheme(quote: "If you can’t fly then run; if you can’t run then walk; if you can’t walk then crawl, but whatever you do you have to keep moving forward.",
+                   author: "Martin Luther King, Jr"),
+        QuoteTheme(quote: "At the end of the day, tell yourself gently: ‘I love you, you did the best you could today, and even if you didn’t accomplish all you had planned, I love you anyway.",
+                   author: "Anonymous"),
+        QuoteTheme(quote: "Slow breathing is like an anchor in the midst of an emotional storm: The anchor won't make the storm go away, but it will hold you steady until it passes.”",
+                   author: "Russ Harris"),
+        QuoteTheme(quote: "Life is 10% of what you experience and 90% of how you respond to it.",
+                   author: "Dorothy M. Neddermeyer"),
+        QuoteTheme(quote: "Your mind will answer most questions if you learn to relax and wait for the answer.",
+                   author: "William S. Burroughs"),
+        QuoteTheme(quote: "You may not control all the events that happen to you, but you can decide not to be reduced by them.",
+                   author: "Maya Angelou"),
+        QuoteTheme(quote: "Whatever happens to you belongs to you. Make it yours. Feed it to yourself even if it feels impossible to swallow. Let it nurture you because it will.",
+                   author: "Cheryl Strayed"),
+        QuoteTheme(quote: "We ourselves feel that what we are doing is just a drop in the ocean. But the ocean would be less because of that missing drop.",
+                   author: "Mother Teresa"),
+        QuoteTheme(quote: "For fast acting relief, try slowing down.",
+                   author: "Lily Tomlin"),
+        QuoteTheme(quote: "Don’t be pushed by your problems. Be led by your dreams.",
+                   author: "Ralph Waldo Emerson"),
+        QuoteTheme(quote: "Try to be a rainbow in someone’s cloud.",
+                   author: "Maya Angelou"),
+        QuoteTheme(quote: "More smiling, less worrying. More compassion, less judgment. More blessed, less stressed. More love, less hate.",
+                   author: "Roy T. Bennett"),
+        QuoteTheme(quote: "Do not anticipate trouble, or worry about what may never happen. Keep in the sunlight.",
+                   author: " Benjamin Franklin"),
+        QuoteTheme(quote: "Instead of worrying about what you cannot control, shift your energy to what you can create.",
+                   author: "Roy Bennett"),
+        QuoteTheme(quote: "The elimination diet: Remove anger, regret, resentment, guilt, blame, and worry. Then watch your health, and life, improve.",
+                   author: "Charles F. Glassman"),
+        QuoteTheme(quote: "Don’t assume I’m weak because I have panic attacks. You’ll never know the amount of strength it takes to face the world every day.",
+                   author: "Unknown"),
+        QuoteTheme(quote: "Just because I can’t explain the feelings causing my anxiety doesn’t make them less valid.",
+                   author: "Lauren Elizabeth"),
+        QuoteTheme(quote: "Trust yourself. You’ve survived a lot, and you’ll survive whatever is coming.",
+                   author: "Robert Tew")
+        
+        //https://www.happierhuman.com/anxiety-quotes/ on number  57
+        
+        
+    ]
+    
+    
+    
+    //AUTHOR QUOTES
     //Link to quotes: https://parade.com/1247073/marynliles/gandhi-quotes/
     
     static let gandhiQotes = [

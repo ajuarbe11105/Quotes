@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Depression: Identifiable {
+struct QuoteTheme: Identifiable {
     var id = UUID()
     var quote: String
     var author: String
