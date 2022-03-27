@@ -430,9 +430,7 @@ struct Quotes {
 //
 //    Depression(quote: <#T##String#>,
 //               author: <#T##String#>),
-//
-//
-//
+
    ]
     
     static let lifeQuotes  = [
@@ -488,6 +486,77 @@ struct Quotes {
                    author: "Neil Armstrong"),
 
 //https://parade.com/937586/parade/life-quotes/ 62
+    ]
+    
+    static let changeQuotes = [
+        QuoteTheme(quote: "Don’t be afraid to give up the good to go for the great",
+                   author: "John D. Rockefeller"),
+        QuoteTheme(quote: "A wise man changes his mind, a good never will",
+                   author: "Icelandic Proverb"),
+        QuoteTheme(quote: "The greatest discovery of all time is that a person can change his future by merely changing his attitude.",
+                   author: "Oprah Winfrey"),
+        QuoteTheme(quote: "Every great dream begins with a dreamer. Always remember, you have within you the strength, the patience, and the passion to reach for the stars to change the world.",
+                   author: "Harriet Tubman"),
+        QuoteTheme(quote: "True life is lived when tiny changes occur",
+                   author: "Leo Tolstoy"),
+        QuoteTheme(quote: "The people who are crazy enough to think they can change the world are the ones who do.",
+                   author: "Steve Jobs"),
+        QuoteTheme(quote: "Moving doesn't change who you are. It only changes the view outside your window",
+                   author: "Rachel Hollis"),
+        QuoteTheme(quote: "You will find that it is necessary to let things go; simply for the reason that they are heavy.",
+                   author: "C. JoyBell C."),
+        QuoteTheme(quote: "The truth is, unless you let go, unless you forgive yourself, unless you forgive the situation, unless you realize that the situation is over, you cannot move forward.",
+                   author: "Steve Maraboli"),
+        QuoteTheme(quote: "If you want to fly, you have to give up what weighs you down.",
+                   author: "Roy T. Bennett"),
+        QuoteTheme(quote: "If you can't change it, change your attitude",
+                   author: "Maya Angelou"),
+        QuoteTheme(quote: "Change the way you look at things and the things you look at change.",
+                   author: "Wayne W. Dyer"),
+        QuoteTheme(quote: "Change is painful, but nothing is as painful as staying stuck somewhere you don’t belong.",
+                   author: "Mandy Hale"),
+        QuoteTheme(quote: "Those who cannot change their minds cannot change anything.",
+                   author: "George Bernard Shaw"),
+        QuoteTheme(quote: "All things are difficult before they are easy.",
+                   author: "Thomas Fuller"),
+        QuoteTheme(quote: "Good things take time.",
+                   author: "John Wooden"),
+        QuoteTheme(quote: "Change is inevitable. Growth is optional.",
+                   author: "John Maxwell"),
+        QuoteTheme(quote: "There are far better things ahead than any we leave behind.",
+                   author: "C.S. Lewis"),
+        QuoteTheme(quote: "Some of us think holding on makes us strong, but sometimes it is letting go.",
+                   author: "Hermann Hesse"),
+        QuoteTheme(quote: "Growth and comfort do not coexist.",
+                   author: "Ginni Rometty"),
+        QuoteTheme(quote: "Courage is the power to let go of the familiar.",
+                   author: "Raymond Lindquist"),
+        QuoteTheme(quote: "The pessimist complains about the wind; the optimist expects it to change; the realist adjusts the sails.",
+                   author: "William Arthur Ward"),
+        QuoteTheme(quote: "You never change your life until you step out of your comfort zone; change begins at the end of your comfort zone.",
+                   author: "Roy T. Bennett"),
+        QuoteTheme(quote: "Any change, even a change for the better, is always accompanied by discomforts.",
+                   author: "Arnold Bennett"),
+        QuoteTheme(quote: "Things change. And friends leave. Life doesn't stop for anybody.",
+                   author: "Stephen Chbosky"),
+        QuoteTheme(quote: "Change is the law of life. And those who look only to the past or present are certain to miss the future.",
+                   author: "John F. Kennedy"),
+        QuoteTheme(quote: "In any given moment we have two options: to step forward into growth or step back into safety.",
+                   author: "Abraham Maslow"),
+        QuoteTheme(quote: "Dreams are the seeds of change. Nothing ever grows without a seed, and nothing ever changes without a dream.",
+                   author: "Debby Boone"),
+        QuoteTheme(quote: "If we don’t change, we don’t grow. If we don’t grow, we aren’t really living.",
+                   author: "Gail Sheehy"),
+        QuoteTheme(quote: "Just when I think I have learned the way to live, life changes.",
+                   author: "Hugh Prather"),
+        QuoteTheme(quote: "We all have big changes in our lives that are more or less a second chance.",
+                   author: "Harrison Ford"),
+        QuoteTheme(quote: "Everyone thinks of changing the world, but no one thinks of changing himself.",
+                   author: "Leo Tolstoy"),
+        QuoteTheme(quote: "Education is the most powerful weapon which you can use to change the world.",
+                   author: "Nelson Mandela")
+        
+        
     ]
     
     static let affirmationQuotes = [

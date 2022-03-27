@@ -857,7 +857,7 @@ struct NewScroll: View {
                                 NavigationLink(destination: {
                                     //LincolnDetail
                                 }, label: {
-                                    Text("Depression")
+                                    Text("Change")
                                     
                                         .padding(.leading, 55)
                                         .padding(.trailing, 10)
