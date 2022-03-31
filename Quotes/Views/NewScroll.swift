@@ -910,7 +910,7 @@ struct NewScroll: View {
                                 NavigationLink(destination: {
                                     //LincolnDetail
                                 }, label: {
-                                    Text("Depression")
+                                    Text("Courage")
                                     
                                         .padding(.leading, 55)
                                         .padding(.trailing, 10)
@@ -926,24 +926,7 @@ struct NewScroll: View {
                                 NavigationLink(destination: {
                                     //LincolnDetail
                                 }, label: {
-                                    Text("Depression")
-                                    
-                                        .padding(.leading, 55)
-                                        .padding(.trailing, 10)
-                                        .padding(.vertical, 3)
-                                        .foregroundColor(.cyan)
-                                        .frame(width: 200, height: 30, alignment: .leading)
-                                        .background(LinearGradient(gradient: Gradient(colors: [.gray, .black]), startPoint: .leading, endPoint: .trailing))
-                                        .cornerRadius(15)
-                                        .lineLimit(6)
-                                        .multilineTextAlignment(.leading)
-                                        .font(.footnote)
-                                })
-                                
-                                NavigationLink(destination: {
-                                    //LincolnDetail
-                                }, label: {
-                                    Text("Depression")
+                                    Text("Love")
                                     
                                         .padding(.leading, 55)
                                         .padding(.trailing, 10)
@@ -960,7 +943,7 @@ struct NewScroll: View {
                                 NavigationLink(destination: {
                                     //LincolnDetail
                                 }, label: {
-                                    Text("Depression")
+                                    Text("Failure")
                                     
                                         .padding(.leading, 55)
                                         .padding(.trailing, 10)
@@ -977,7 +960,24 @@ struct NewScroll: View {
                                 NavigationLink(destination: {
                                     //LincolnDetail
                                 }, label: {
-                                    Text("Depression")
+                                    Text("Work")
+                                    
+                                        .padding(.leading, 55)
+                                        .padding(.trailing, 10)
+                                        .padding(.vertical, 3)
+                                        .foregroundColor(.cyan)
+                                        .frame(width: 200, height: 30, alignment: .leading)
+                                        .background(LinearGradient(gradient: Gradient(colors: [.gray, .black]), startPoint: .leading, endPoint: .trailing))
+                                        .cornerRadius(15)
+                                        .lineLimit(6)
+                                        .multilineTextAlignment(.leading)
+                                        .font(.footnote)
+                                })
+                                
+                                NavigationLink(destination: {
+                                    //LincolnDetail
+                                }, label: {
+                                    Text("Happiness")
                                     
                                         .padding(.leading, 55)
                                         .padding(.trailing, 10)
@@ -996,7 +996,7 @@ struct NewScroll: View {
                                 NavigationLink(destination: {
                                     //LincolnDetail
                                 }, label: {
-                                    Text("Depression")
+                                    Text("Inspiration")
                                     
                                         .padding(.leading, 55)
                                         .padding(.trailing, 10)
@@ -1012,24 +1012,7 @@ struct NewScroll: View {
                                 NavigationLink(destination: {
                                     //LincolnDetail
                                 }, label: {
-                                    Text("Depression")
-                                    
-                                        .padding(.leading, 55)
-                                        .padding(.trailing, 10)
-                                        .padding(.vertical, 3)
-                                        .foregroundColor(.cyan)
-                                        .frame(width: 200, height: 30, alignment: .leading)
-                                        .background(LinearGradient(gradient: Gradient(colors: [.gray, .black]), startPoint: .leading, endPoint: .trailing))
-                                        .cornerRadius(15)
-                                        .lineLimit(6)
-                                        .multilineTextAlignment(.leading)
-                                        .font(.footnote)
-                                })
-                                
-                                NavigationLink(destination: {
-                                    //LincolnDetail
-                                }, label: {
-                                    Text("Depression")
+                                    Text("Success")
                                     
                                         .padding(.leading, 55)
                                         .padding(.trailing, 10)
@@ -1046,7 +1029,7 @@ struct NewScroll: View {
                                 NavigationLink(destination: {
                                     //LincolnDetail
                                 }, label: {
-                                    Text("Depression")
+                                    Text("Confidence")
                                     
                                         .padding(.leading, 55)
                                         .padding(.trailing, 10)
@@ -1063,7 +1046,24 @@ struct NewScroll: View {
                                 NavigationLink(destination: {
                                     //LincolnDetail
                                 }, label: {
-                                    Text("Depression")
+                                    Text("Foregiveness")
+                                    
+                                        .padding(.leading, 55)
+                                        .padding(.trailing, 10)
+                                        .padding(.vertical, 3)
+                                        .foregroundColor(.cyan)
+                                        .frame(width: 200, height: 30, alignment: .leading)
+                                        .background(LinearGradient(gradient: Gradient(colors: [.gray, .black]), startPoint: .leading, endPoint: .trailing))
+                                        .cornerRadius(15)
+                                        .lineLimit(6)
+                                        .multilineTextAlignment(.leading)
+                                        .font(.footnote)
+                                })
+                                
+                                NavigationLink(destination: {
+                                    //LincolnDetail
+                                }, label: {
+                                    Text("Leadership")
                                     
                                         .padding(.leading, 55)
                                         .padding(.trailing, 10)
@@ -1083,7 +1083,7 @@ struct NewScroll: View {
                                 NavigationLink(destination: {
                                     //LincolnDetail
                                 }, label: {
-                                    Text("Depression")
+                                    Text("Kindness")
                                     
                                         .padding(.leading, 55)
                                         .padding(.trailing, 10)
@@ -1099,24 +1099,7 @@ struct NewScroll: View {
                                 NavigationLink(destination: {
                                     //LincolnDetail
                                 }, label: {
-                                    Text("Depression")
-                                    
-                                        .padding(.leading, 55)
-                                        .padding(.trailing, 10)
-                                        .padding(.vertical, 3)
-                                        .foregroundColor(.cyan)
-                                        .frame(width: 200, height: 30, alignment: .leading)
-                                        .background(LinearGradient(gradient: Gradient(colors: [.gray, .black]), startPoint: .leading, endPoint: .trailing))
-                                        .cornerRadius(15)
-                                        .lineLimit(6)
-                                        .multilineTextAlignment(.leading)
-                                        .font(.footnote)
-                                })
-                                
-                                NavigationLink(destination: {
-                                    //LincolnDetail
-                                }, label: {
-                                    Text("Depression")
+                                    Text("Pain")
                                     
                                         .padding(.leading, 55)
                                         .padding(.trailing, 10)
@@ -1133,7 +1116,24 @@ struct NewScroll: View {
                                 NavigationLink(destination: {
                                     //LincolnDetail
                                 }, label: {
-                                    Text("Depression")
+                                    Text("Dreams")
+                                    
+                                        .padding(.leading, 55)
+                                        .padding(.trailing, 10)
+                                        .padding(.vertical, 3)
+                                        .foregroundColor(.cyan)
+                                        .frame(width: 200, height: 30, alignment: .leading)
+                                        .background(LinearGradient(gradient: Gradient(colors: [.gray, .black]), startPoint: .leading, endPoint: .trailing))
+                                        .cornerRadius(15)
+                                        .lineLimit(6)
+                                        .multilineTextAlignment(.leading)
+                                        .font(.footnote)
+                                })
+                                
+                                NavigationLink(destination: {
+                                    //LincolnDetail
+                                }, label: {
+                                    Text("Past")
                                     
                                         .padding(.leading, 55)
                                         .padding(.trailing, 10)

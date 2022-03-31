@@ -30,7 +30,11 @@ import Foundation
  FAIRNESS
  FORGIVENESS
  HAPPINESS
+ 
  INSPIRATION & MOTIVATION
+ Failure is a step to success. Falling down is a step to success. Losing is a step to success. Pain is a step to success. But quitting is not. Never give up.
+ 
+ 
  WORK
  TRUTH
  PAIN
@@ -46,7 +50,7 @@ struct Quotes {
     
     static let depressionQuotes = [
     
-    QuoteTheme(quote: "I found that with depression, one of the most important things you could realize is that you’re not alone",
+    QuoteTheme(quote: "I found that with depression, one of the most important things you could realize is that you’re not alone.",
                author: "Dwayne Johnson"),
     
     QuoteTheme(quote: "You say you’re ‘depressed’ – all I see is resilience. You are allowed to feel messed up and inside out. It doesn’t mean you’re defective – it just means you’re human.",
@@ -76,7 +80,7 @@ struct Quotes {
     QuoteTheme(quote: "That’s the thing about depression: A human being can survive almost anything, as long as she sees the end in sight. But depression is so insidious, and it compounds daily, that it’s impossible to ever see the end",
                author: "Elizabeth Wurtzel"),
 
-    QuoteTheme(quote: "I am bent, but not broken. I am scarred, but not disfigured. I am sad, but not hopeless. I am tired, but not powerless. I am angry, but not bitter. I am depressed, but not giving up",
+    QuoteTheme(quote: "I am bent, but not broken. I am scarred, but not disfigured. I am sad, but not hopeless. I am tired, but not powerless. I am angry, but not bitter. I am depressed, but not giving up.",
                author: "Anonymous"),
 
     QuoteTheme(quote: "I’ll never forget how the depression and loneliness felt good and bad at the same time. Still does.",
@@ -723,6 +727,11 @@ struct Quotes {
         
     ]
     
+//    static let wisdomQuotes = [
+//
+//
+//    ]
+    
     
     
     //AUTHOR QUOTES
@@ -1045,7 +1054,7 @@ struct Quotes {
         AuthorModel(quote: "You can beat or jail me or even kill me, but I am not going to be what you want me to be!"),
         AuthorModel(quote: "The chances you take, the people you meet, the people you love, the faith that you have. That's what's going to define you."),
         AuthorModel(quote: "At the end of the day, it’s not about what you have or even what you’ve accomplished. It’s about what you’ve done with those accomplishments. It’s about who you’ve lifted up, who you’ve made better. It’s about what you’ve given back."),
-
+        AuthorModel(quote: "At your highest moment, be careful, that's when the devil comes after you.")
     
     ]
 }
