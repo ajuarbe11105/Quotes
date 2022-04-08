@@ -13,12 +13,12 @@ struct DylanDetail: View {
     var body: some View {
         
         
-        ScrollView(showsIndicators: false) {
-            VStack {
+        ScrollView(.horizontal, showsIndicators: false) {
+            HStack {
                 ForEach(dylan, id: \.id) { item in
                     RoundedRectangle(cornerRadius: 20)
                         .fill(.gray)
-                        .frame(width: 400, height: 150)
+                        .frame(width: 700, height: 500)
                         .shadow(color: .black, radius: 2, x: 2, y: 2)
                         .overlay(
                     
@@ -30,9 +30,9 @@ struct DylanDetail: View {
                     
                 }
             }
+            .navigationTitle("Bob Dylan Quotes")
+            .navigationBarTitleDisplayMode(.inline)
         }
-        .navigationTitle("Elon Musk Quotes")
-        .navigationBarTitleDisplayMode(.inline)
     }
 }
 
