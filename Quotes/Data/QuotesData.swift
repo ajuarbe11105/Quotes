@@ -114,12 +114,15 @@ struct Quotes {
 
     QuoteTheme(quote: "The hardest thing about depression is that it is addictive. It begins to feel uncomfortable not to be depressed. You feel guilty for feeling happy..",
                author: "Pete Wentz"),
-//
-//    Depression(quote: <#T##String#>,
-//               author: <#T##String#>),
-//
-//    Depression(quote: <#T##String#>,
-//               author: <#T##String#>),
+
+    QuoteTheme(quote: "I can't stand the silence and being left along with my thoughts.",
+               author: "Unknown"),
+    
+   QuoteTheme(quote: "I hate this feeling. Like I'm here but I'm not. Like somebody cares, but they don't. Like I belong somewhere else, anywhere but not here",
+              author: "CreatingWonders"),
+
+    QuoteTheme(quote: "Only those who truly care about you, can hear you when you're quiet.",
+               author: "CreatingWonders"),
 //
 //    Depression(quote: <#T##String#>,
 //               author: <#T##String#>),
@@ -488,6 +491,12 @@ struct Quotes {
                    author: "Anais Nin"),
         QuoteTheme(quote: "I believe every human has a finite number of heartbeats. I don’t intend to waste any of mine.",
                    author: "Neil Armstrong"),
+        QuoteTheme(quote: "Don't take life so seriously. It's not like you're getting out alive.",
+                   author: "The Joker"),
+        QuoteTheme(quote: "Some people will talk to you in their free time, while other people will free up their time to talk to you. ",
+                   author: "CreatingWonders"),
+        QuoteTheme(quote: "You don't have to build a relationship with everyone that you have forgiven. Just because you're at peace does not mean that they are not still toxic.",
+                   author: "CreatingWonders"),
 
 //https://parade.com/937586/parade/life-quotes/ 62
     ]
@@ -574,7 +583,7 @@ struct Quotes {
                    author: "Gabby Bernstein"),
         QuoteTheme(quote: "Every day you wake up is a great day!",
                    author: "Unknown"),
-        QuoteTheme(quote: "Nohting can dim the light that shines from within.",
+        QuoteTheme(quote: "Nothing can dim the light that shines from within.",
                    author: "Maya Angelou"),
         QuoteTheme(quote: "Who you are inside is what helps you make and do everything in life.",
                    author: "Fred Rogers"),
@@ -955,8 +964,6 @@ struct Quotes {
         AuthorModel(quote: "Real loss is only possible when you love something more than you love yourself."),
         AuthorModel(quote: "What's right is what's left if you do everything else wrong."),
 
-    
-    
     ]
     
     static let twainQuotes = [
@@ -1055,6 +1062,11 @@ struct Quotes {
         AuthorModel(quote: "The chances you take, the people you meet, the people you love, the faith that you have. That's what's going to define you."),
         AuthorModel(quote: "At the end of the day, it’s not about what you have or even what you’ve accomplished. It’s about what you’ve done with those accomplishments. It’s about who you’ve lifted up, who you’ve made better. It’s about what you’ve given back."),
         AuthorModel(quote: "At your highest moment, be careful, that's when the devil comes after you.")
+    
+    ]
+    
+    static var creatingWonders = [
+    AuthorModel(quote: " I hate this feeling. Like I'm here but I'm not. Like somebody cares, but they don't. Like I belong somewhere else, anywhere but not here")
     
     ]
 }

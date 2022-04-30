@@ -10,35 +10,37 @@ import SwiftUI
 struct GandhiDetail: View {
     
     var gandhi: [AuthorQuote] = Quotes.gandhiQotes
+    var images =  ["coins","dust", "bulb"]
     
     
     
     var body: some View {
-        ScrollView(showsIndicators: false) {
-            VStack {
+        ScrollView(.horizontal, showsIndicators: false) {
+            HStack(spacing: 0) {
                 ForEach(gandhi, id: \.id) { item in
                     RoundedRectangle(cornerRadius: 20)
                         .fill(.gray)
-                        .frame(width: 400, height: 150)
+                        .frame(width: 700, height: 700)
                         .shadow(color: .black, radius: 2, x: 2, y: 2)
                         .overlay(
-                            Text(item.quote)
-                                .padding()
+                            ForEach(images, id: \.self) { item in
+                                Image(item)
+                                    .resizable()
+                                    .scaledToFit()
+                                
+                            }
                             
-                        )
-                    
-//                    Button(action: actionSheet) {
-//                                   Image(systemName: "square.and.arrow.up")
-//                                       .resizable()
-//                                       .aspectRatio(contentMode: .fit)
-//                                       .frame(width: 36, height: 36)
-//                               }
+                        ).padding()
+                    Text(item.quote)
+                        .font(.title)
+                        .offset(x: -610, y: 0)
+                        .padding()
                         .padding(10)
-                    
+                        
                     
                 }
             }
-        }
+            .padding(-50)
         .navigationTitle("Gandhi")
     }
     
@@ -48,7 +50,7 @@ struct GandhiDetail: View {
 //            let activityVC = UIActivityViewController(activityItems: [urlShare], applicationActivities: nil)
 //            UIApplication.shared.windows.first?.rootViewController?.present(activityVC, animated: true, completion: nil)
 //        }
-
+    }
 }
 
 struct GandhiDetail_Previews: PreviewProvider {
